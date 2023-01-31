@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------- GLOBALES ---------------------*/
+.subtitulo, .titulo {
+  font-family: "Oleo Script", cursive;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background-color: #153243;
+}
+
+.Body1 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 140px auto 140px;
+  grid-template-areas: " header" " main" " footer";
+}
+
+.Body2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 140px auto 140px;
+  grid-template-areas: " header" " main" " footer";
+}
+
+header {
+  font-family: "Varela Round", sans-serif;
+  grid-area: header;
+  text-align: center;
+  background-color: #153243;
+  height: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header img {
+  position: absolute;
+  top: 20px;
+  left: 2%;
+  height: 100px;
+  width: 100px;
+}
+header nav a {
+  text-decoration: none;
+  padding: 0% 1%;
+  color: #ffffff;
+}
+header nav a:hover {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.288);
+  padding: 0.5% 1%;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  background-color: #153243;
+  color: #ffffff;
+  opacity: 95%;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+}
+
+.titulo {
+  font-size: 40px;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+.descripcion {
+  font-family: "Varela Round", sans-serif;
+  margin: 0% 5%;
+  color: #153243;
+  text-align: justify;
+}
+
+.boton {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #153243;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.boton:hover {
+  background-color: black;
+}
+
+.grupo__tarjetas {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: solid;
+  color: #ffffff;
+  background-color: #153243;
+  font-size: 15px;
+  padding: 20px;
+  margin: 3% 3%;
+  width: 330px;
+  height: 20px;
+}
+.input:focus {
+  box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+}
+
+/*--------------------- PAGINA "INICIO" ---------------------*/
+.titulo, .subtitulo {
+  font-family: "Oleo Script", cursive;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.inicio__seccion1 {
+  margin: 5%;
+  border-radius: 30px;
+  background-color: bisque;
+  padding: 20%;
+}
+
+.inicio__seccion2 {
+  margin: 5%;
+  border-radius: 30px;
+  background-color: brown;
+  padding: 20%;
+}
+
+.inicio__seccion3 {
+  margin: 5%;
+  border-radius: 30px;
+  background-color: yellowgreen;
+  padding: 20%;
+}
+
+.inicio__btn__categoria {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #153243;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10% 5%;
+}
+.inicio__btn__categoria:hover {
+  background-color: black;
+}
+
+/*--------------------- PAGINA "VER PUBLICACION" ---------------------*/
+.grupo__post {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5%;
+}
+
+.post__cuadro {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(249, 148, 7, 0.664);
+}
+
+.post__puntuacion {
+  margin: 30px 20px 0px 20px;
+  width: 200px;
+}
+
+/*--------------------- PAGINA "DESTACADOS" ---------------------*/
+.dest__tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 2%;
+  min-height: 400px;
+  max-height: 400px;
+  width: 310px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.151);
+}
+.dest__tarjeta:hover {
+  transition: 0.2s;
+  transform: scale(102%);
+}
+
+.dest__perfil__img {
+  height: 155px;
+  width: 155px;
+  margin: 0% 0% 10% 25%;
+}
+
+/*--------------------- PAGINA "MAS INFORMACION" ---------------------*/
+.grupo {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.seccion1 {
+  margin: 2%;
+  background-color: #ffffff;
+  width: 90%;
+  height: 50%;
+  border-radius: 30px;
+  padding: 1%;
+  box-shadow: 0px 0px 15px 0px rgba(49, 49, 49, 0.113);
+}
+
+.seccion2 {
+  margin: 2% 1% 2% 2%;
+  background-color: #ffffff;
+  width: 50%;
+  height: 40%;
+  border-radius: 30px;
+  padding: 2%;
+  box-shadow: 0px 0px 15px 0px rgba(49, 49, 49, 0.113);
+}
+
+.seccion3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 1% 2% 2%;
+  background-color: #ffffff;
+  width: 30%;
+  height: 60%;
+  border-radius: 30px;
+  padding: 2%;
+  box-shadow: 0px 0px 15px 0px rgba(49, 49, 49, 0.113);
+}
+
+.tarjeta__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 3%;
+  background-color: rgba(0, 0, 0, 0.031372549);
+  width: 90%;
+  padding: 5%;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.tarjeta__redes:hover {
+  box-shadow: 0px 0px 15px 0px rgba(49, 49, 49, 0.198);
+}
+
+.img__icon {
+  height: 70px;
+  width: 70px;
+  margin: 0% 30px;
+}
+
+.input__Info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: solid;
+  color: #ffffff;
+  background-color: #153243;
+  font-size: 15px;
+  padding: 2%;
+  margin: 1% 5%;
+  width: 70%;
+}
+.input__Info:focus {
+  box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+}
+
+.txt__Info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: solid;
+  color: #ffffff;
+  background-color: #153243;
+  font-size: 15px;
+  padding: 20px;
+  margin: 1% 5%;
+  width: 70%;
+  height: 40px;
+}
+.txt__Info:focus {
+  box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+}
+
+.lista__Info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: solid;
+  color: #ffffff;
+  background-color: #153243;
+  font-size: 15px;
+  padding: 20px;
+  margin: 1% 5%;
+  width: 70%;
+  height: 40px;
+}
+.lista__Info:focus {
+  box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+}
+
+.pregunta {
+  margin: 1% 20%;
+  background-color: #c5eaff;
+  border-radius: 50px 50px 5px 50px;
+  padding: 20px 30px;
+  width: 70%;
+}
+
+.respuesta {
+  background-color: rgb(218, 255, 205);
+  border-radius: 50px 50px 50px 5px;
+  padding: 20px 30px;
+  width: 30%;
+}
+
+/*--------------------- PAGINA "PERFIL" ---------------------*/
+/*---------------------CLASES PAGINA "PERFIL"---------------------*/
+.grupo__tarjeta__perfil {
+  margin: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.perfil__tarjetaLogin {
+  padding: 5%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.151);
+  width: 400px;
+  height: 6560%;
+}
+
+.perfil__tarjetaRegis {
+  padding: 5%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.031372549);
+  width: 400px;
+  height: 630px;
+}
+
+.boton__perfil {
+  font-family: "Varela Round", sans-serif;
+  margin: 5% 40%;
+  padding: 15px;
+  border-color: #153243;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #153243;
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------------- Responsive ---------------------*/
+@media (max-width: 1000px) {
+  .titulo {
+    font-size: 30px;
+  }
+  .imgAdaptable {
+    display: none;
+  }
+  .categorias {
+    grid-area: aside;
+    margin: 1%;
+    padding: 5px;
+    background-color: #153243;
+    border-radius: 40px;
+    text-align: center;
+    height: 100px;
+  }
+  .inicio__Buscador {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    width: 85%;
+    height: 5px;
+  }
+  .inicio__btn__categoria {
+    display: none;
+  }
+  .Body1 {
+    grid-template-columns: 100%;
+    grid-template-rows: 140px auto 140px;
+    grid-template-areas: " header" " main" " footer";
+  }
+  .Body2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 140px auto 140px;
+    grid-template-areas: " header" " main" " footer";
+  }
+  .minifotos {
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+  }
+  .pregunta {
+    margin: 1% 10%;
+    background-color: #c5eaff;
+    border-radius: 50px 50px 5px 50px;
+    padding: 20px 30px;
+    width: 70%;
+  }
+  .respuesta {
+    background-color: rgb(218, 255, 205);
+    border-radius: 50px 50px 50px 5px;
+    padding: 20px 30px;
+    width: 60%;
+  }
+  .seccion1 {
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 90%;
+    height: 50%;
+    border-radius: 30px;
+    padding: 1%;
+  }
+  .seccion2 {
+    width: 90%;
+    height: 40%;
+  }
+  .seccion3 {
+    width: 90%;
+    height: 40%;
+  }
+  .perfil__tarjetaLogin {
+    width: 300px;
+    height: 430px;
+  }
+  .input {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */

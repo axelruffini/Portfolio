@@ -1,0 +1,36 @@
+/*---------------------CLASES PAGINA "PERFIL"---------------------*/
+.grupo__tarjeta__perfil{
+    margin: 2%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.perfil__tarjetaLogin{
+    padding: 5%;
+    border-radius: 20px;
+    background-color: $ColorBlanco;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.151);
+    width: 400px;
+    height: 6560%;
+}
+
+.perfil__tarjetaRegis{
+    padding: 5%;
+    border-radius: 20px;
+    background-color: $ColorGris;
+    width: 400px;
+    height: 630px;
+}
+
+
+.boton__perfil{
+    font-family: 'Varela Round', sans-serif;
+    margin: 5% 40%;
+    padding: 15px;
+    border-color: #153243;
+    border-radius: 50px;
+    color: $ColorBlanco;
+    background-color: $ColorAzul;
+    display: flex;
+    justify-content: center;
+}

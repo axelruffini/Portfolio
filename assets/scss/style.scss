@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+$ColorAzul: #153243;
+$ColorBlanco: #ffffff;
+$ColorGris: #00000008;
+$ColorSeleccion: black;
+
+/*--------------------- GLOBALES ---------------------*/
+
+@import "globales";
+
+/*--------------------- PAGINA "INICIO" ---------------------*/
+
+@import "inicio";
+
+/*--------------------- PAGINA "VER PUBLICACION" ---------------------*/
+
+@import "publicacion";
+
+/*--------------------- PAGINA "DESTACADOS" ---------------------*/
+
+@import "destacados";
+
+/*--------------------- PAGINA "MAS INFORMACION" ---------------------*/
+
+@import "informacion";
+
+/*--------------------- PAGINA "PERFIL" ---------------------*/
+
+@import "perfil";
+
+
+/*--------------------- Responsive ---------------------*/
+
+@import "responsive";

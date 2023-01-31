@@ -1,0 +1,15 @@
+@mixin botones($margin){
+    font-family: 'Varela Round', sans-serif;    
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: $ColorBlanco;
+    background-color: $ColorAzul;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: $margin;
+    &:hover{
+        background-color:$ColorSeleccion;
+    }
+}

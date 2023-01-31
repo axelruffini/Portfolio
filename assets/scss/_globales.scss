@@ -1,0 +1,120 @@
+
+@import "extend";
+@import "mixin";
+
+body{
+    background-color: $ColorAzul;
+}
+
+.Body1{ 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 140px auto 140px;
+    grid-template-areas:" header"
+                        " main"
+                        " footer"
+}
+
+
+.Body2{ 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 140px auto 140px;
+    grid-template-areas:" header"
+                        " main"
+                        " footer"
+}
+header{
+    font-family: 'Varela Round', sans-serif;
+    grid-area: header;
+    text-align: center;
+    background-color: $ColorAzul;
+    height: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    img{
+        position: absolute;
+        top: 20px;
+        left: 2%;
+        height: 100px;
+        width: 100px;
+    }
+    nav{
+        a{
+        text-decoration: none;
+        padding: 0% 1%;
+        color: $ColorBlanco;
+            &:hover{
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.288);
+            padding: 0.5% 1%;
+            }
+        }
+    }
+    }
+
+main{
+    grid-area: main;
+}
+
+
+footer{
+    grid-area: footer;
+
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;    
+    background-color: $ColorAzul;
+    color: $ColorBlanco;
+    opacity: 95%;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+
+.titulo{
+    @extend %textos;
+    font-size: 40px;
+}
+
+.subtitulo{
+    @extend %textos;
+    font-size: 30px;
+}
+
+.descripcion{
+    font-family: 'Varela Round', sans-serif;    
+    margin: 0% 5%;
+    color: $ColorAzul;
+    text-align: justify;
+}
+
+.boton{
+    @include botones (5%)
+}
+
+.grupo__tarjetas{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    border: solid;
+    color: $ColorBlanco;
+    background-color: $ColorAzul;
+    font-size: 15px;
+    padding: 20px;
+    margin: 3% 3%;
+    width: 330px;
+    height: 20px;
+    &:focus{
+        box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+    }
+}
