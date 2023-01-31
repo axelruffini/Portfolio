@@ -9,37 +9,21 @@ body{
 .Body1{ 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 140px auto 140px;
+    grid-template-rows: 130px auto 140px;
     grid-template-areas:" header"
                         " main"
                         " footer"
 }
 
 
-.Body2{ 
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 140px auto 140px;
-    grid-template-areas:" header"
-                        " main"
-                        " footer"
-}
 header{
+    position: fixed;
+    height: 130px;
+    width: 100%;
     font-family: 'Varela Round', sans-serif;
     grid-area: header;
     text-align: center;
     background-color: $ColorAzul;
-    height: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    img{
-        position: absolute;
-        top: 20px;
-        left: 2%;
-        height: 100px;
-        width: 100px;
-    }
     nav{
         a{
         text-decoration: none;
@@ -69,10 +53,6 @@ footer{
     background-color: $ColorAzul;
     color: $ColorBlanco;
     opacity: 95%;
-    img{
-        height: 50px;
-        width: 50px;
-    }
 }
 
 
