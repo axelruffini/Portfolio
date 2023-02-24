@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 
-$ColorAzul: #153243;
-$ColorBlanco: #ffffff;
+$ColorAzul: #e9edc9;
+$ColorBlanco: #000000;
 $ColorGris: #00000008;
 $ColorSeleccion: black;
 
@@ -20,23 +20,17 @@ $ColorSeleccion: black;
 
 @import "inicio";
 
-/*--------------------- PAGINA "VER PUBLICACION" ---------------------*/
+/*--------------------- PAGINA "EXPERIENCIA" ---------------------*/
 
-@import "publicacion";
+@import "experiencia";
 
-/*--------------------- PAGINA "DESTACADOS" ---------------------*/
+/*--------------------- PAGINA "PROYECTOS" ---------------------*/
 
-@import "destacados";
+@import "proyectos";
 
-/*--------------------- PAGINA "MAS INFORMACION" ---------------------*/
+/*--------------------- PAGINA "CONTACTO" ---------------------*/
 
-@import "informacion";
-
-/*--------------------- PAGINA "PERFIL" ---------------------*/
-
-@import "perfil";
-
+@import "contacto";
 
 /*--------------------- Responsive ---------------------*/
 
-@import "responsive";

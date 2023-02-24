@@ -13,3 +13,15 @@
         background-color:$ColorSeleccion;
     }
 }
+
+@mixin tarjeta ($alto, $ancho ){
+    margin: 50px;
+    text-align: start;
+    padding: 50px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 30px;
+    border-color: black;
+    height: $alto;
+    width: $ancho;
+}

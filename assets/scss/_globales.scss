@@ -2,9 +2,6 @@
 @import "extend";
 @import "mixin";
 
-body{
-    background-color: $ColorAzul;
-}
 
 .Body1{ 
     display: grid;
@@ -23,7 +20,7 @@ header{
     font-family: 'Varela Round', sans-serif;
     grid-area: header;
     text-align: center;
-    background-color: $ColorAzul;
+    background-color: #282B41;
     nav{
         a{
         text-decoration: none;
@@ -31,7 +28,7 @@ header{
         color: $ColorBlanco;
             &:hover{
             border-radius: 10px;
-            background-color: rgba(0, 0, 0, 0.288);
+            background-color: #191b2a;
             padding: 0.5% 1%;
             }
         }
@@ -70,7 +67,7 @@ footer{
 .descripcion{
     font-family: 'Varela Round', sans-serif;    
     margin: 0% 5%;
-    color: $ColorAzul;
+    color: white;
     text-align: justify;
 }
 

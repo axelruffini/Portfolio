@@ -3,29 +3,6 @@
 @import "mixin";
 
 
-html{
-    scroll-behavior: smooth;
-}
-
-.inicio__seccion1{
-    background-color: bisque;
-    padding: 20%;
-}
-
-.inicio__seccion2{
-    background-color:brown;
-    padding: 20%;
-}
-
-
-.inicio__seccion3{
-
-    background-color:yellowgreen;
-    padding: 20%;
-}
-
-
-.inicio__btn__categoria{
-
-    @include botones (10% 5%)
+.tarjetaPerfil{
+    @include tarjeta(100px, 500px)
 }
