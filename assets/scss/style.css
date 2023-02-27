@@ -7,8 +7,8 @@
 
 /*--------------------- GLOBALES ---------------------*/
 .subtitulo, .titulo {
-  font-family: "Oleo Script", cursive;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   text-align: center;
   margin: 20px;
 }
@@ -27,7 +27,7 @@ header {
   font-family: "Varela Round", sans-serif;
   grid-area: header;
   text-align: center;
-  background-color: #282B41;
+  background-color: #E2C2A2;
 }
 header nav a {
   text-decoration: none;
@@ -36,7 +36,7 @@ header nav a {
 }
 header nav a:hover {
   border-radius: 10px;
-  background-color: #191b2a;
+  background-color: #c8a685;
   padding: 0.5% 1%;
 }
 
@@ -50,9 +50,8 @@ footer {
   justify-content: center;
   text-align: center;
   font-family: "Varela Round", sans-serif;
-  background-color: #e9edc9;
+  background-color: black;
   color: #000000;
-  opacity: 95%;
 }
 
 .titulo {
@@ -65,8 +64,8 @@ footer {
 
 .descripcion {
   font-family: "Varela Round", sans-serif;
-  margin: 0% 5%;
-  color: white;
+  margin: 0% 2%;
+  color: black;
   text-align: justify;
 }
 
@@ -109,8 +108,8 @@ footer {
 
 /*--------------------- PAGINA "INICIO" ---------------------*/
 .titulo, .subtitulo {
-  font-family: "Oleo Script", cursive;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   text-align: center;
   margin: 20px;
 }

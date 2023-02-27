@@ -20,7 +20,7 @@ header{
     font-family: 'Varela Round', sans-serif;
     grid-area: header;
     text-align: center;
-    background-color: #282B41;
+    background-color: #E2C2A2;
     nav{
         a{
         text-decoration: none;
@@ -28,7 +28,7 @@ header{
         color: $ColorBlanco;
             &:hover{
             border-radius: 10px;
-            background-color: #191b2a;
+            background-color: #c8a685;
             padding: 0.5% 1%;
             }
         }
@@ -42,14 +42,12 @@ main{
 
 footer{
     grid-area: footer;
-
     padding: 15px;
     justify-content: center;
     text-align: center;
     font-family: 'Varela Round', sans-serif;    
-    background-color: $ColorAzul;
+    background-color: black;
     color: $ColorBlanco;
-    opacity: 95%;
 }
 
 
@@ -66,8 +64,8 @@ footer{
 
 .descripcion{
     font-family: 'Varela Round', sans-serif;    
-    margin: 0% 5%;
-    color: white;
+    margin: 0% 2%;
+    color: black;
     text-align: justify;
 }
 
