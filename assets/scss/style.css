@@ -21,6 +21,8 @@
 }
 
 header {
+  position: relative;
+  z-index: 2;
   display: inline;
   position: fixed;
   height: 130px;
@@ -39,6 +41,20 @@ header nav a:hover {
   border-radius: 10px;
   background-color: #c8a685;
   padding: 0.5% 1%;
+}
+
+.headerTitulo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 2;
+}
+
+.headerTexto {
+  position: relative;
+  top: 60px;
+  left: 400px;
+  z-index: 2;
 }
 
 main {
@@ -87,6 +103,11 @@ footer {
 }
 
 .grupo__tarjetas {
+  position: relative;
+  left: 230px;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: row;
 }
@@ -107,6 +128,28 @@ footer {
   box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
 }
 
+.waves {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  z-index: 1;
+  background-color: #E2C2A2;
+}
+
+.banner__contenedor {
+  position: relative;
+  left: 350px;
+  z-index: 0;
+  height: 150px;
+  width: 500px;
+  padding: 5%;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+}
+
 /*--------------------- PAGINA "INICIO" ---------------------*/
 .titulo, .subtitulo {
   font-family: Arial, Helvetica, sans-serif;
@@ -122,20 +165,10 @@ footer {
   padding: 30px;
   border: 2px solid;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 20px;
   border-color: white;
   height: 90px;
   width: 200px;
-}
-
-.waves {
-  width: 100%;
-}
-
-.banner {
-  padding: 5%;
-  text-align: center;
-  background-color: #E2C2A2;
 }
 
 /*--------------------- PAGINA "EXPERIENCIA" ---------------------*/
