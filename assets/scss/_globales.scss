@@ -40,7 +40,7 @@ header{
 
 .headerTitulo{
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 50px;
     z-index: 2;
 }
@@ -69,22 +69,24 @@ footer{
 
 
 
-.titulo{
-    @extend %textos;
-    font-size: 40px;
+.t1{
+    @include textos(40px,center);
 }
 
-.subtitulo{
-    @extend %textos;
-    font-size: 30px;
+.t2{
+    @include textos(35px,center);
 }
 
-.descripcion{
-    font-family: 'Varela Round', sans-serif;    
-    margin: 0% 2%;
-    color: black;
-    text-align: justify;
+.t3{
+    @include textos(22px,center);
+    margin-bottom: 10px
+
 }
+.t4{
+    @include textos(18px,justify);
+}
+
+
 
 .boton{
     @include botones (5%)

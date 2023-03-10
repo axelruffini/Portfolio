@@ -1,0 +1,14 @@
+.tarjetaMail{
+    position: absolute;
+    left: 70%;
+    @include tarjeta( 500px, 300px, #e2c2a298)
+}
+
+.tarjetaRedes{
+    @include tarjeta( 100px, 300px, #e2c2a298)
+}
+
+.contenedorRedes{
+display: flex;
+flex-direction: column;
+}
