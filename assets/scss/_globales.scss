@@ -1,5 +1,4 @@
 
-@import "extend";
 @import "mixin";
 
 
@@ -14,26 +13,18 @@
 
 
 header{
-    position: relative;
+    grid-area: header;
     z-index: 2;
-    display: inline;
-    position: fixed;
     height: 130px;
     width: 100%;
     font-family: 'Varela Round', sans-serif;
-    grid-area: header;
     text-align: center;
     background-color: #E2C2A2;
     nav{
         a{
         text-decoration: none;
-        padding: 0% 1%;
+        padding: 0% 2%;
         color: $ColorBlanco;
-            &:hover{
-            border-radius: 10px;
-            background-color: #c8a685;
-            padding: 0.5% 1%;
-            }
         }
     }
 }
@@ -41,14 +32,15 @@ header{
 .headerTitulo{
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 5%;
     z-index: 2;
 }
 
 .headerTexto{
+    display: inline;
     position:relative;
     top: 60px;
-    left: 400px;
+    left: 30%;
     z-index: 2;
 }
 
@@ -88,17 +80,14 @@ footer{
 
 
 
-.boton{
+.btn{
     @include botones (5%)
 }
 
 .grupo__tarjetas{
-    position:relative;
-    left: 230px;
-    height: auto;
-    width: fit-content;
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .input{
@@ -124,18 +113,17 @@ footer{
 .banner{
     position: relative;
     z-index: 1;
-    height: 250px;
+    height: 150px;
     background-color: #E2C2A2;
 }
 
 .banner__contenedor{
     position: relative;
-    left: 350px;
+    margin: 0px 10%;
+    left: 20%;
     z-index: 0;
     height: 150px;
     width: 500px;
-    padding: 5%;
-    text-align: start;
     display: flex;
     flex-direction: row;
 }

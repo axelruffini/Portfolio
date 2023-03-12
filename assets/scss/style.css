@@ -14,39 +14,32 @@
 }
 
 header {
-  position: relative;
+  grid-area: header;
   z-index: 2;
-  display: inline;
-  position: fixed;
   height: 130px;
   width: 100%;
   font-family: "Varela Round", sans-serif;
-  grid-area: header;
   text-align: center;
   background-color: #E2C2A2;
 }
 header nav a {
   text-decoration: none;
-  padding: 0% 1%;
+  padding: 0% 2%;
   color: #000000;
-}
-header nav a:hover {
-  border-radius: 10px;
-  background-color: #c8a685;
-  padding: 0.5% 1%;
 }
 
 .headerTitulo {
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 5%;
   z-index: 2;
 }
 
 .headerTexto {
+  display: inline;
   position: relative;
   top: 60px;
-  left: 400px;
+  left: 30%;
   z-index: 2;
 }
 
@@ -93,7 +86,7 @@ footer {
   font-size: 18px;
 }
 
-.boton {
+.btn {
   font-family: "Varela Round", sans-serif;
   text-align: center;
   padding: 10px;
@@ -105,18 +98,14 @@ footer {
   justify-content: center;
   margin: 5%;
 }
-.boton:hover {
+.btn:hover {
   background-color: black;
 }
 
 .grupo__tarjetas {
-  position: relative;
-  left: 230px;
-  height: auto;
-  width: -moz-fit-content;
-  width: fit-content;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .input {
@@ -142,18 +131,17 @@ footer {
 .banner {
   position: relative;
   z-index: 1;
-  height: 250px;
+  height: 150px;
   background-color: #E2C2A2;
 }
 
 .banner__contenedor {
   position: relative;
-  left: 350px;
+  margin: 0px 10%;
+  left: 20%;
   z-index: 0;
   height: 150px;
   width: 500px;
-  padding: 5%;
-  text-align: start;
   display: flex;
   flex-direction: row;
 }
@@ -192,14 +180,12 @@ footer {
 
 /*--------------------- PAGINA "CONTACTO" ---------------------*/
 .tarjetaMail {
-  position: absolute;
-  left: 70%;
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
   text-align: start;
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
-  height: 500px;
+  height: auto;
   width: 300px;
   background-color: rgba(226, 194, 162, 0.5960784314);
 }
@@ -210,9 +196,14 @@ footer {
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
-  height: 100px;
+  height: auto;
   width: 300px;
   background-color: rgba(226, 194, 162, 0.5960784314);
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
 }
 
 .contenedorRedes {
@@ -220,4 +211,18 @@ footer {
   flex-direction: column;
 }
 
-/*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
+.icono {
+  width: 50px;
+  height: 50px;
+}
+
+.grupo1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.grupo2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+} /*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
