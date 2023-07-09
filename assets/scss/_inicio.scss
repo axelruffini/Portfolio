@@ -5,3 +5,126 @@
 .Experiencia_tarjeta{
     @include tarjeta(130px, 200px, white)
 }
+
+
+Body{ 
+    background-color: #05041B;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 130px auto 140px;
+    grid-template-areas:" header"
+                        " main"
+                        " footer"
+}
+
+
+header{
+    grid-area: header;
+    z-index: 2;
+    height: 130px;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: #05041B;
+    nav{
+        a{
+        text-decoration: none;
+        padding: 0% 2%;
+        color: $ColorBlanco;
+        }
+    }
+}
+
+.headerTitulo{
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    z-index: 2;
+}
+
+.headerTexto{
+    display: inline;
+    position:relative;
+    top: 60px;
+    left: 30%;
+    z-index: 2;
+}
+
+main{
+    grid-area: main;
+}
+
+
+footer{
+    grid-area: footer;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;    
+    background-color: black;
+    color: $ColorBlanco;
+}
+
+
+
+.t1{
+    @include textos(40px,center);
+    font-weight: bold
+}
+
+.t2{
+    @include textos(35px,center);
+    font-weight: lighter
+}
+
+.t3{
+    @include textos(22px,center);
+    margin-bottom: 10px
+
+}
+.t4{
+    @include textos(18px,justify);
+}
+
+
+
+.btn{
+    @include botones (5%)
+}
+
+.grupo__tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    border: solid;
+    color: $ColorBlanco;
+    background-color: $ColorAzul;
+    font-size: 15px;
+    padding: 20px;
+    margin: 3% 3%;
+    width: 330px;
+    height: 20px;
+    &:focus{
+        box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
+    }
+}
+
+//Borrar despues
+.div1{
+    padding: 10%;
+    background-color: rgb(35, 35, 35);
+}
+
+.div2{
+    padding: 10%;
+    background-color: rgb(62, 49, 49);
+}
+.div3{
+    padding: 10%;
+    background-color: rgb(68, 66, 115);
+}

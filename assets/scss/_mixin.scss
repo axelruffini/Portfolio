@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;700&display=swap');
+
 @mixin botones($margin){
     font-family: 'Varela Round', sans-serif;    
     text-align: center;
@@ -27,8 +29,8 @@
 }
 
 @mixin textos ($size, $centrado){
-    font-family:Arial, Helvetica, sans-serif;
-    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: rgb(255, 255, 255);
     text-align: $centrado;
     font-size: $size;
 

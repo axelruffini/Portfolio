@@ -3,34 +3,13 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-
 $ColorAzul: #e9edc9;
 $ColorBlanco: #000000;
 $ColorGris: #00000008;
 $ColorSeleccion: black;
-
-/*--------------------- GLOBALES ---------------------*/
-
-@import "globales";
-
 /*--------------------- PAGINA "INICIO" ---------------------*/
 
 @import "inicio";
-
-/*--------------------- PAGINA "EXPERIENCIA" ---------------------*/
-
-@import "experiencia";
-
-/*--------------------- PAGINA "PROYECTOS" ---------------------*/
-
-@import "proyectos";
-
-/*--------------------- PAGINA "CONTACTO" ---------------------*/
-
-@import "contacto";
 
 /*--------------------- Responsive ---------------------*/
 

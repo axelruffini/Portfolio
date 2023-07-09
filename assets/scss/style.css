@@ -1,12 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-/*--------------------- GLOBALES ---------------------*/
-.Body1 {
+/*--------------------- PAGINA "INICIO" ---------------------*/
+.Experiencia_tarjeta {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
+  text-align: start;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  height: 130px;
+  width: 200px;
+  background-color: white;
+}
+
+Body {
+  background-color: #05041B;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 130px auto 140px;
@@ -20,7 +31,7 @@ header {
   width: 100%;
   font-family: "Varela Round", sans-serif;
   text-align: center;
-  background-color: #E2C2A2;
+  background-color: #05041B;
 }
 header nav a {
   text-decoration: none;
@@ -58,30 +69,32 @@ footer {
 }
 
 .t1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .t2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 35px;
+  font-weight: lighter;
 }
 
 .t3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 22px;
   margin-bottom: 10px;
 }
 
 .t4 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: rgb(255, 255, 255);
   text-align: justify;
   font-size: 18px;
 }
@@ -124,105 +137,19 @@ footer {
   box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
 }
 
-.waves {
-  width: 100%;
+.div1 {
+  padding: 10%;
+  background-color: rgb(35, 35, 35);
 }
 
-.banner {
-  position: relative;
-  z-index: 1;
-  height: 150px;
-  background-color: #E2C2A2;
+.div2 {
+  padding: 10%;
+  background-color: rgb(62, 49, 49);
 }
 
-.banner__contenedor {
-  position: relative;
-  margin: 0px 10%;
-  left: 20%;
-  z-index: 0;
-  height: 150px;
-  width: 500px;
-  display: flex;
-  flex-direction: row;
+.div3 {
+  padding: 10%;
+  background-color: rgb(68, 66, 115);
 }
 
-/*--------------------- PAGINA "INICIO" ---------------------*/
-.Experiencia_tarjeta {
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
-  text-align: start;
-  margin: 30px;
-  padding: 30px;
-  border-radius: 20px;
-  height: 130px;
-  width: 200px;
-  background-color: white;
-}
-
-/*--------------------- PAGINA "EXPERIENCIA" ---------------------*/
-/*--------------------- PAGINA "PROYECTOS" ---------------------*/
-.grupo__post {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  padding: 5%;
-}
-
-.post__cuadro {
-  width: 60%;
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px 0px rgba(249, 148, 7, 0.664);
-}
-
-.post__puntuacion {
-  margin: 30px 20px 0px 20px;
-  width: 200px;
-}
-
-/*--------------------- PAGINA "CONTACTO" ---------------------*/
-.tarjetaMail {
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
-  text-align: start;
-  margin: 30px;
-  padding: 30px;
-  border-radius: 20px;
-  height: auto;
-  width: 300px;
-  background-color: rgba(226, 194, 162, 0.5960784314);
-}
-
-.tarjetaRedes {
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
-  text-align: start;
-  margin: 30px;
-  padding: 30px;
-  border-radius: 20px;
-  height: auto;
-  width: 300px;
-  background-color: rgba(226, 194, 162, 0.5960784314);
-}
-
-.contenido {
-  display: flex;
-  flex-direction: row;
-}
-
-.contenedorRedes {
-  display: flex;
-  flex-direction: column;
-}
-
-.icono {
-  width: 50px;
-  height: 50px;
-}
-
-.grupo1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.grupo2 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-} /*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
+/*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
