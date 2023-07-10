@@ -1,36 +1,31 @@
 
 @import "mixin";
 
-
 .Experiencia_tarjeta{
     @include tarjeta(130px, 200px, white)
 }
 
 
-Body{ 
-    background-color: #05041B;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 130px auto 140px;
-    grid-template-areas:" header"
-                        " main"
-                        " footer"
+body {
+    margin: 0;
+    padding: 0;
 }
 
-
-header{
-    grid-area: header;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 2;
     height: 130px;
     width: 100%;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     background-color: #05041B;
-    nav{
-        a{
-        text-decoration: none;
-        padding: 0% 2%;
-        color: $ColorBlanco;
+    nav {
+        a {
+            text-decoration: none;
+            padding: 0% 2%;
+            color: $ColorBlanco;
         }
     }
 }
@@ -50,8 +45,8 @@ header{
     z-index: 2;
 }
 
-main{
-    grid-area: main;
+main {
+    margin-top: 130px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
 }
 
 
@@ -114,17 +109,20 @@ footer{
     }
 }
 
-//Borrar despues
+//Borrar despues (Solo es para mostrar las secciones)
 .div1{
-    padding: 10%;
+    padding: 5%;
+    padding-bottom: 50%;
     background-color: rgb(35, 35, 35);
 }
 
 .div2{
-    padding: 10%;
+    padding: 5%;
+    padding-bottom: 50%;
     background-color: rgb(62, 49, 49);
 }
 .div3{
-    padding: 10%;
+    padding: 4%;
+    padding-bottom: 50%;
     background-color: rgb(68, 66, 115);
 }

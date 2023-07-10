@@ -16,16 +16,15 @@
   background-color: white;
 }
 
-Body {
-  background-color: #05041B;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 130px auto 140px;
-  grid-template-areas: " header" " main" " footer";
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  grid-area: header;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 2;
   height: 130px;
   width: 100%;
@@ -55,7 +54,7 @@ header nav a {
 }
 
 main {
-  grid-area: main;
+  margin-top: 130px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
 }
 
 footer {
@@ -138,17 +137,20 @@ footer {
 }
 
 .div1 {
-  padding: 10%;
+  padding: 5%;
+  padding-bottom: 50%;
   background-color: rgb(35, 35, 35);
 }
 
 .div2 {
-  padding: 10%;
+  padding: 5%;
+  padding-bottom: 50%;
   background-color: rgb(62, 49, 49);
 }
 
 .div3 {
-  padding: 10%;
+  padding: 4%;
+  padding-bottom: 50%;
   background-color: rgb(68, 66, 115);
 }
 
