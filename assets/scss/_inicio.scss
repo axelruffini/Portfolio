@@ -1,12 +1,10 @@
 
 @import "mixin";
 
-.Experiencia_tarjeta{
-    @include tarjeta(130px, 200px, white)
-}
-
-
 body {
+    background-image: url("../img/Burbujas.svg");
+    background-color: #05041B;
+    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -68,19 +66,14 @@ footer{
 }
 
 .t2{
-    @include textos(35px,center);
-    font-weight: lighter
+    @include textos(25px,center);
+    font-weight: bold
 }
 
 .t3{
-    @include textos(22px,center);
-    margin-bottom: 10px
-
+    @include textos(20px,center);
+    font-weight: lighter
 }
-.t4{
-    @include textos(18px,justify);
-}
-
 
 
 .btn{
@@ -113,17 +106,13 @@ footer{
 .div1{
     padding: 5%;
     padding-bottom: 50%;
-    background-color: rgb(35, 35, 35);
 }
 
 .div2{
     padding: 5%;
     padding-bottom: 50%;
-    background-color: rgb(64, 44, 44);
-
 }
 .div3{
     padding: 5%;
     padding-bottom: 50%;
-    background-color: rgb(68, 66, 115);
 }

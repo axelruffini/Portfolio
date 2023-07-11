@@ -5,18 +5,10 @@
 }
 
 /*--------------------- PAGINA "INICIO" ---------------------*/
-.Experiencia_tarjeta {
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1254901961);
-  text-align: start;
-  margin: 30px;
-  padding: 30px;
-  border-radius: 20px;
-  height: 130px;
-  width: 200px;
-  background-color: white;
-}
-
 body {
+  background-image: url("../img/Burbujas.svg");
+  background-color: #05041B;
+  background-size: 100%;
   margin: 0;
   padding: 0;
 }
@@ -79,23 +71,16 @@ footer {
   font-family: "M PLUS 1 Code", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 35px;
-  font-weight: lighter;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .t3 {
   font-family: "M PLUS 1 Code", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.t4 {
-  font-family: "M PLUS 1 Code", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .btn {
@@ -139,19 +124,16 @@ footer {
 .div1 {
   padding: 5%;
   padding-bottom: 50%;
-  background-color: rgb(35, 35, 35);
 }
 
 .div2 {
   padding: 5%;
   padding-bottom: 50%;
-  background-color: rgb(64, 44, 44);
 }
 
 .div3 {
   padding: 5%;
   padding-bottom: 50%;
-  background-color: rgb(68, 66, 115);
 }
 
 /*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
