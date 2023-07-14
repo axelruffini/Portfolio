@@ -75,6 +75,14 @@ footer{
     font-weight: lighter
 }
 
+.t4{
+    @include textos(20px,center);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
 
 .btn{
     @include botones (5%)
@@ -105,7 +113,7 @@ footer{
 //Borrar despues (Solo es para mostrar las secciones)
 .div1{
     padding: 5%;
-    padding-bottom: 50%;
+    padding-bottom: 10%;
 }
 
 .div2{
@@ -115,4 +123,15 @@ footer{
 .div3{
     padding: 5%;
     padding-bottom: 50%;
+}
+
+.grupoPaginas{
+    display: flex;
+    justify-content: center;
+}
+
+.paginas{
+    background-color: aliceblue;
+    margin: 1%;
+    padding: 1%;
 }
