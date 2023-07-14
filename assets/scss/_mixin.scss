@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;700&display=swap');
 
 @mixin botones($margin){
-    font-family: 'Varela Round', sans-serif;    
+    font-family: 'M PLUS 1 Code', sans-serif;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    color: $ColorBlanco;
-    background-color: $ColorAzul;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    color: black;
+    background-color: white;
     margin: $margin;
-    &:hover{
-        background-color:$ColorSeleccion;
-    }
+    border-style: none;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 @mixin tarjeta ($alto, $ancho, $color){
