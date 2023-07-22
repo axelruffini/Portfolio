@@ -179,4 +179,22 @@ footer {
   background-color: #05041B;
 }
 
-/*--------------------- Responsive ---------------------*//*# sourceMappingURL=style.css.map */
+/*--------------------- Responsive ---------------------*/
+@media (max-width: 1000px) {
+  .paginas {
+    flex-direction: column;
+  }
+  .headerTitulo {
+    position: relative;
+    top: 20px;
+    left: 0%;
+    z-index: 2;
+  }
+  .headerTexto {
+    display: block;
+    position: relative;
+    top: 25%;
+    left: 0%;
+    z-index: 2;
+  }
+}/*# sourceMappingURL=style.css.map */
