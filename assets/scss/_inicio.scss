@@ -75,6 +75,10 @@ footer{
     font-weight: lighter
 }
 
+.t3:hover{ //texto del header
+    text-decoration-line: line-through
+}
+
 .t4{
     @include textos(20px,center);
     color: rgb(0, 0, 0);
@@ -132,8 +136,33 @@ footer{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .btn{
-    @include botones(20px)
+    background-color: white;
+    width: 200px;
+}
+
+.btn-visitar{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+}
+
+.desc{
+    display: none;
+}
+
+.btn:hover .desc{
+    font-weight: lighter;
+    display:flex;
+    margin-top: 20px;
+    color: rgb(104, 104, 104);
 }
 
 .grupoContactos{

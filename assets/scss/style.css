@@ -83,6 +83,10 @@ footer {
   font-weight: lighter;
 }
 
+.t3:hover {
+  text-decoration-line: line-through;
+}
+
 .t4 {
   font-family: "M PLUS 1 Code", sans-serif;
   color: rgb(255, 255, 255);
@@ -149,17 +153,33 @@ footer {
   justify-content: center;
 }
 
-.btn {
-  font-family: "M PLUS 1 Code", sans-serif;
-  text-align: center;
-  padding: 10px;
+a {
   text-decoration: none;
   color: black;
+}
+
+.btn {
   background-color: white;
-  margin: 20px;
-  border-style: none;
-  font-weight: bold;
-  font-size: 25px;
+  width: 200px;
+}
+
+.btn-visitar {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: black;
+}
+
+.desc {
+  display: none;
+}
+
+.btn:hover .desc {
+  font-weight: lighter;
+  display: flex;
+  margin-top: 20px;
+  color: rgb(104, 104, 104);
 }
 
 .grupoContactos {
