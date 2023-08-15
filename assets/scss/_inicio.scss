@@ -10,41 +10,24 @@ body {
 }
 
 header {
+    @include textos(40px,center);    
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
-    height: 130px;
     width: 100%;
-    font-family: 'Varela Round', sans-serif;
+    height: 150px;
     text-align: center;
     background-color: #05041B;
     nav {
         a {
-            text-decoration: none;
-            padding: 0% 2%;
-            color: $ColorBlanco;
+            @include textos(20px,center); 
         }
     }
 }
 
-.headerTitulo{
-    position: absolute;
-    top: 50px;
-    left: 5%;
-    z-index: 2;
-}
-
-.headerTexto{
-    display: inline;
-    position:relative;
-    top: 60px;
-    left: 30%;
-    z-index: 2;
-}
-
 main {
-    margin-top: 130px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
+    margin-top: 190px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
 }
 
 
@@ -58,82 +41,49 @@ footer{
     color: $ColorBlanco;
 }
 
-
-
-.t1{
+h1{ //solo se usa 1 vez
     @include textos(40px,center);
-    font-weight: bold
+    margin-top: 30px;
 }
 
-.t2{
+
+
+h2{ //titulo
     @include textos(25px,center);
-    font-weight: bold
+    color: white;
+    
 }
 
-.t3{
+h3{ //subtitulo
+    @include textos(23px,center);
+    color: white;
+}
+
+p{ //parrafo
     @include textos(20px,center);
-    font-weight: lighter
+    color: rgb(255, 255, 255);
 }
 
-.t3:hover{ //texto del header
-    text-decoration-line: line-through
-}
-
-.t4{
-    @include textos(20px,center);
+.txt-Color{
     color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
+    
 }
 
-.btn{
-    @include botones (5%)
-}
-
-.grupo__tarjetas{
+.grupo-tarjetas{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.input{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 10px;
-    border: solid;
-    color: $ColorBlanco;
-    background-color: $ColorAzul;
-    font-size: 15px;
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
     padding: 20px;
-    margin: 3% 3%;
-    width: 330px;
-    height: 20px;
-    &:focus{
-        box-shadow: 0px 0px 15px 0px rgb(0, 162, 255);
-    }
-}
-
-//Borrar despues (Solo es para mostrar las secciones)
-.div1{
-    padding: 5%;
-    padding-bottom: 10%;
-}
-
-.div2{
-    padding: 5%;
-    padding-bottom: 10%;
-
-}
-.div3{
-    padding: 5%;
-    padding-bottom: 10%;
-}
-
-
-
-.paginas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    border-radius: 10px;
 }
 
 a{
@@ -143,26 +93,12 @@ a{
 
 .btn{
     background-color: white;
-    width: 200px;
-}
-
-.btn-visitar{
-    background-color: rgb(255, 255, 255);
     padding: 10px;
+    margin-top: 10px;
     border-radius: 100px;
+    width: 100px;
     border-style: solid;
     border-color: black;
-}
-
-.desc{
-    display: none;
-}
-
-.btn:hover .desc{
-    font-weight: lighter;
-    display:flex;
-    margin-top: 20px;
-    color: rgb(104, 104, 104);
 }
 
 .grupoContactos{
@@ -173,11 +109,16 @@ a{
 }
 
 .imgIcon{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 .btnContactos{
+    width: 80px;
     border-style: none;
     background-color: #05041B;
+}
+
+.info{
+    margin: 0px 50px 50px 50px;
 }

@@ -10,7 +10,6 @@ function nativeScroll(distanceFromTheTop){
     window.scroll({
         top: distanceFromTheTop,
         behavior: "smooth",
-
     });
 }
 

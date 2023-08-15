@@ -5,57 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Encontraras hermosos cuadros subidos por la comunidad los cuales se pueden comprar y coleccionar">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio | Axel Ruffini</title>
     <link rel="icon" href="./assets/img/cuadroICONO.png">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/scss/style.css">
 </head>
 
 
 <body>
     <header>
-        <h2 class="t1 headerTitulo t1Responsive">Axel Ruffini</h2>
-        <nav class="headerTexto">
-            <a href="#uno" class="t3 t3Responsive">Inicio</a> 
-            <a href="#dos" class="t3 t3Responsive">Proyectos</a> 
-            <a href="#tres" class="t3 t3Responsive">Contacto</a> 
+        <h1 class="headerTitulo">Axel Ruffini</h1>
+        <nav>
+            <a href="#uno">Inicio</a> 
+            <a href="#dos">Proyectos</a> 
+            <a href="#tres">Contacto</a> 
         </nav>
     </header>
 
     <main>
-        <div class="div1" id="uno">
-            <h1 class="t2 t2Responsive">Axel Ruffini, Desarrollador web</h1>
-            <h2 class="t3 t3Responsive">"Bienvenido a mi portfolio de desarrollo web, donde muestro mi pasión por crear experiencias digitales. Como desarrollador web, tengo experiencia en el diseño y desarrollo de sitios web y aplicaciones que combinan una estética atractiva con una funcionalidad sólida.”</h2>
+        <div id="uno" class="info">
+            <h2>Axel Ruffini, Desarrollador web</h2>
+            <p>"Bienvenido a mi portfolio de desarrollo web, donde muestro mi pasión por crear experiencias digitales. Como desarrollador web, tengo experiencia en el diseño y desarrollo de sitios web y aplicaciones que combinan una estética atractiva con una funcionalidad sólida.”</p>
         </div>
 
-        <div class="div2" id="dos">
-            <h1 class="t2 t2Responsive">Proyectos</h1>
-            <div class="paginas">
-                <div class="btn">
-                    <h4>Galeria virtual</h4>
-                    <p class="desc">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn-visitar">
+        <div id="dos" >
+            <h2>Proyectos</h2>
+            <div class="grupo-tarjetas">
+                <div class="tarjetas" data-aos="flip-up">
+                    <h3 class="txt-Color">Galeria virtual</h3>
+                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
+                    <button class="btn">
                         <a href="https://axelruffini.github.io/DesarrolloWeb-Coderhouse/"><h4>visitar</h4></a>
                     </button>
                 </div>
-                <div class="btn">
-                    <a href="https://axelruffini.github.io/ToDo/">ToDo List</a> 
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div >
-                <div class="btn">
-                    <a href="https://axelruffini.github.io/e-comerce/">E-comerce</a> 
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="tarjetas" data-aos="flip-up">
+                    <h3 class="txt-Color ">ToDo List</h3>
+                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
+                    <button class="btn">
+                        <a href="https://axelruffini.github.io/ToDo/"><h4>visitar</h4></a>
+                    </button>
                 </div>
-                <div class="btn">
-                    <a href="https://axelruffini.github.io/header/">Otro</a> 
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="tarjetas" data-aos="flip-up">
+                    <h3 class="txt-Color">E-comerce</h3>
+                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
+                    <button class="btn">
+                        <a href="https://axelruffini.github.io/e-comerce/"><h4>visitar</h4></a>
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div class="div3" id="tres">
-            <h1 class="t2 t2Responsive">Contacto</h1>
+        <div id="tres">
+            <h2>Contacto</h2>
             <div class="grupoContactos">
                 <button class="btnContactos">
                     <a href="https://www.instagram.com/instagram/">
@@ -66,6 +69,11 @@
                     <a href="https://wa.me/3516814304">
                     <img src="./assets/img/Iconos/whatsapp-logo-png-0.png" alt="" class="imgIcon">
                 </button>
+
+                <button class="btnContactos">
+                    <a href="https://github.com/axelruffini">
+                    <img src="./assets/img/Iconos/github-mark-white.png" alt="" class="imgIcon">
+                </button>
             </div>
         </div>
     </main>
@@ -74,5 +82,9 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
