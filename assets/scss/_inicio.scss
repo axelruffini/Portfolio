@@ -1,6 +1,11 @@
 
 @import "mixin";
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 15rem;
+}
+
 body {
     background-image: url("../img/Burbujas.svg");
     background-color: #05041B;
@@ -30,16 +35,6 @@ main {
     margin-top: 190px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
 }
 
-
-footer{
-    grid-area: footer;
-    padding: 15px;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;    
-    background-color: black;
-    color: $ColorBlanco;
-}
 
 h1{ //solo se usa 1 vez
     @include textos(40px,center);
@@ -76,8 +71,7 @@ p{ //parrafo
 .grupo-tarjetas{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .tarjetas{
