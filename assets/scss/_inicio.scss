@@ -46,17 +46,20 @@ h1{ //solo se usa 1 vez
 h2{ //titulo
     @include textos(25px,center);
     color: white;
+    font-weight: bold;
     
 }
 
 h3{ //subtitulo
     @include textos(23px,center);
     color: white;
+    font-weight:bold;
 }
 
 p{ //parrafo
     @include textos(20px,center);
     color: rgb(255, 255, 255);
+    font-weight:300;
 }
 
 .just{
