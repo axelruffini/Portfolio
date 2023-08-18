@@ -26,7 +26,8 @@ header {
     background-color: #05041B;
     nav {
         a {
-            @include textos(20px,center); 
+            @include textos(18px,center); 
+            font-weight:lighter;
         }
     }
 }
@@ -46,7 +47,7 @@ h1{ //solo se usa 1 vez
 h2{ //titulo
     @include textos(25px,center);
     color: white;
-    font-weight: bold;
+    font-weight:bolder;
     
 }
 
