@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Encontraras hermosos cuadros subidos por la comunidad los cuales se pueden comprar y coleccionar">
+    <meta name="description"
+        content="Encontraras hermosos cuadros subidos por la comunidad los cuales se pueden comprar y coleccionar">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio | Axel Ruffini</title>
     <link rel="icon" href="./assets/img/cuadroICONO.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/scss/style.css">
@@ -19,82 +23,84 @@
 
 <body>
     <header>
-        <h1 class="headerTitulo">Axel Ruffini</h1>
         <nav>
-            <a href="#uno">Inicio</a> 
-            <a href="#dos">Proyectos</a> 
-            <a href="#tres">Contacto</a> 
+            <a href="#uno">Inicio</a>
+            <a href="#dos">Proyectos</a>
+            <a href="#tres">Contacto</a>
         </nav>
     </header>
 
     <main>
-        <article id="uno" class="info">
-            <h2 class="m-b">Axel Ruffini, Desarrollador web</h2>
-            <p>"Bienvenido a mi portfolio de desarrollo web, donde mustro mi pasión por crear experiencias digitales. Como desarrollador web, tengo experiencia en el diseño y desarrollo de sitios web y aplicaciones que combinan una estética atractiva con una funcionalidad sólida.”</p>
+        <article class="sobre-mi" id="uno">
+            <h1>Axel Ruffini</h1>
+            <h2>Desarrollador Web</h2>
+            <p>"Bienvenido a mi portfolio de desarrollo web, donde mustro mi pasión por crear experiencias digitales."
+            </p>
+            <div class="grupoContactos"> <!-- iconos de contacto -->
+                <!-- <div class="CV">
+                    Descargar CV
+                    <img src="./assets/img/Download.svg" alt="" class="imgIcon">
+                </div> -->
+                <button class="btnContactos">
+                    <a href="https://www.instagram.com/instagram/">
+                        <img src="./assets/img/Instagram.svg" alt="" class="imgIcon">
+                </button>
+                <button class="btnContactos">
+                    <a href="https://wa.me/3516814304">
+                        <img src="./assets/img/Whatsapp.svg" alt="" class="imgIcon">
+                </button>
+                <button class="btnContactos">
+                    <a href="https://github.com/axelruffini">
+                        <img src="./assets/img/GitHub.svg" alt="" class="imgIcon">
+                </button>               
+            </div>
         </article>
 
-        <article id="dos">
-            <h2>Proyectos</h2>
+        <article class="proyectos" id="dos">
+            <h2>Proyectos destacados</h2>
             <div class="grupo-tarjetas">
                 <div class="tarjetas" data-aos="flip-up">
-                    <h3 class="txt-Color">Galeria virtual</h3>
+                    <h3 class="txt-Color ">ToDo List</h3>
+                    <img src="./assets/img/Captura2.png" alt="" class="imgTarjeta">
                     <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/DesarrolloWeb-Coderhouse/"><h4>visitar</h4></a>
+                    <button>
+                        <a href="https://axelruffini.github.io/ToDo/">visitar</a>
                     </button>
                 </div>
                 <div class="tarjetas" data-aos="flip-up">
                     <h3 class="txt-Color ">ToDo List</h3>
+                    <img src="./assets/img/Captura1.png" alt="" class="imgTarjeta">
                     <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/ToDo/"><h4>visitar</h4></a>
+                    <button>
+                        <a href="https://axelruffini.github.io/ToDo/">visitar</a>
                     </button>
                 </div>
                 <div class="tarjetas" data-aos="flip-up">
                     <h3 class="txt-Color">E-comerce</h3>
+                    <img src="./assets/img/Captura2.png" alt="" class="imgTarjeta">
                     <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/e-comerce/"><h4>visitar</h4></a>
+                    <button>
+                        <a href="https://axelruffini.github.io/e-comerce/">Visitar</a>
                     </button>
                 </div>
-                <div class="tarjetas" data-aos="flip-up">
-                    <h3 class="txt-Color">E-comerce</h3>
-                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/e-comerce/"><h4>visitar</h4></a>
-                    </button>
-                </div>
-                <div class="tarjetas" data-aos="flip-up">
-                    <h3 class="txt-Color">E-comerce</h3>
-                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/e-comerce/"><h4>visitar</h4></a>
-                    </button>
-                </div>
-                <div class="tarjetas" data-aos="flip-up">
-                    <h3 class="txt-Color">E-comerce</h3>
-                    <p class="txt-Color">Esta galeria virtual es un proyecto utilizando HTML y CSS</p>
-                    <button class="btn">
-                        <a href="https://axelruffini.github.io/e-comerce/"><h4>visitar</h4></a>
-                    </button>
-                </div>
+
             </div>
         </article>
 
-        <article id="tres">
+        <article class="Contacto" id="tres">
             <h2>Contacto</h2>
             <div class="grupoContactos">
                 <button class="btnContactos">
                     <a href="https://www.instagram.com/instagram/">
-                    <img src="./assets/img/Iconos/Instagram_logo_2016.svg.png" alt="" class="imgIcon">
+                        <img src="./assets/img/Instagram.svg" alt="" class="imgIcon">
                 </button>
                 <button class="btnContactos">
                     <a href="https://wa.me/3516814304">
-                    <img src="./assets/img/Iconos/whatsapp-logo-png-0.png" alt="" class="imgIcon">
+                        <img src="./assets/img/Whatsapp.svg" alt="" class="imgIcon">
                 </button>
                 <button class="btnContactos">
                     <a href="https://github.com/axelruffini">
-                    <img src="./assets/img/Iconos/github-mark-white.png" alt="" class="imgIcon">
+                        <img src="./assets/img/GitHub.svg" alt="" class="imgIcon">
                 </button>
             </div>
         </article>
@@ -105,4 +111,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>

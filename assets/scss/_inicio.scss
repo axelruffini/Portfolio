@@ -1,4 +1,3 @@
-
 @import "mixin";
 
 html{
@@ -7,64 +6,61 @@ html{
 }
 
 body {
-    background-image: url("../img/Burbujas.svg");
-    background-color: #05041B;
-    background-size: 100%;
-    margin: 0;
+    background: rgb(23,37,52);
+    background: linear-gradient(146deg, rgba(23,37,52,1) 0%, rgba(0,0,0,1) 100%);    margin: 0;
     padding: 0;
 }
 
-header {
-    @include textos(40px,center);    
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include textos(20px,center);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
     width: 100%;
-    height: 150px;
-    text-align: center;
-    background-color: #05041B;
+    height: 10%;
     nav {
         a {
-            @include textos(18px,center); 
-            font-weight:lighter;
+            color: white;
+            font-size: medium;
+            font-weight: lighter;
+            margin: 15px;
+            text-decoration: none;
         }
     }
 }
 
-main {
-    margin-top: 190px; /* Agrega un margen superior para compensar el espacio ocupado por el header */
-}
 
 
 h1{ //solo se usa 1 vez
     @include textos(40px,center);
-    margin-top: 30px;
+    margin: 0px 0px 10px 0px;
 }
-
-
 
 h2{ //titulo
-    @include textos(25px,center);
-    color: white;
+    @include textos(22px,center);
+    color: #778DA9;
     font-weight:bolder;
-    
-}
-
-h3{ //subtitulo
-    @include textos(23px,center);
-    color: white;
-    font-weight:bold;
+    margin: 0px 0px 30px 0px;
 }
 
 p{ //parrafo
-    @include textos(20px,center);
+    @include textos(15px,center);
     color: rgb(255, 255, 255);
-    font-weight:300;
+    max-width: 300px;
 }
 
-.m-b{
-    margin-bottom: 20px;
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .txt-Color{
@@ -80,6 +76,7 @@ p{ //parrafo
 
 .tarjetas{
     display: flex;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -88,12 +85,15 @@ p{ //parrafo
     border-radius: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+.imgTarjeta{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #000;
 }
 
-.btn{
+
+button{
     background-color: white;
     padding: 10px;
     margin-top: 10px;
@@ -101,26 +101,45 @@ a{
     width: 100px;
     border-style: solid;
     border-color: black;
+    text-decoration: none;
 }
 
 .grupoContactos{
     display: flex;
     justify-content: center;
-    margin: 5%;
     flex-direction: row;
 }
 
 .imgIcon{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
+    filter: invert(100);
 }
 
 .btnContactos{
     width: 80px;
     border-style: none;
-    background-color: #05041B;
+    background-color: #00000000;
 }
 
-.info{
-    margin: 0px 50px 50px 50px;
+.sobre-mi{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+
+.CV{
+    border-radius: 100px;
+    border: 3px solid #ffffff;
+    @include textos(15px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px;
 }

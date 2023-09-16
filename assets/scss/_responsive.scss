@@ -1,5 +1,8 @@
 
 @media(min-width: 1000px){
+    header{
+        @include textos(20px,center);
+    }
     .paginas{
         flex-direction: column;
     }
@@ -15,14 +18,35 @@
         flex-direction: row;
         justify-content:center;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .tarjetas{
-        width: 200px;
+        width: 300px;
+        height: fit-content;
     }
 
     .btn:hover{
         background-color: rgba(0, 7, 107, 0.261);
+    }
+
+    h1{ //solo se usa 1 vez
+        @include textos(88px,center);
+        margin: 0px 0px 10px 0px;
+    }
+    
+    h2{ //titulo
+        @include textos(37px,center);
+        color: #778DA9;
+        font-weight:bolder;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    p{ //parrafo
+        @include textos(17px,center);
+        color: rgb(255, 255, 255);
+        font-weight:300;
+        max-width: 600px;
     }
 
 }
