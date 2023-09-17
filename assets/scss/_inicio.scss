@@ -47,6 +47,12 @@ h2{ //titulo
     font-weight:bolder;
 }
 
+h3{ 
+    @include textos(20px,center);
+    font-weight:600;
+    margin: 10px 0px;
+}
+
 p{ //parrafo
     @include textos(15px,center);
     color: rgb(255, 255, 255);
