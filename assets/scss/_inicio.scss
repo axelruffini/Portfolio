@@ -68,7 +68,7 @@ a{
 }
 
 .txt-rw{
-        background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+        background: linear-gradient(to right, #ff7573, #ff73a2, #a673ff, #72c0ff, #72efff, #72ff79, #f3ff71, #ffc971, #ff9474);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -119,7 +119,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 100px;
+    width: auto;
     margin-top: 20px;
 }
 
@@ -132,6 +132,8 @@ button{
 .btnContactos{
     border-style: none;
     background-color: #00000000;
+    width: 20px; /* es la misma media que imgIcon */
+    margin: 0px 10px;
 }
 
 .sobre-mi{

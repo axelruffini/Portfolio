@@ -52,11 +52,20 @@
         display: flex;
         padding: 5px 5px;
         min-width: 150px;
+        margin-right: 10px;
     }
     .imgIcon{
         height: 30px;
         width: 30px;
         filter: invert(100);
+    }
+
+
+    .btnContactos{
+        border-style: none;
+        background-color: #00000000;
+        width: 30px; /* es la misma media que imgIcon */
+        margin: 0px 15px;
     }
 }
 
