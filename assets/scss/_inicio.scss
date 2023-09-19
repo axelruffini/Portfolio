@@ -167,3 +167,16 @@ button{
     background-color: rgba(255, 255, 255, 0.115);
     min-width: 90px;
 }
+
+.desplazamiento{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.115);
+    margin: 100px 0px 0px 0px;
+}

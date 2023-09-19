@@ -66,5 +66,11 @@
         width: 30px; /* es la misma media que imgIcon */
         margin: 0px 15px;
     }
+    .desplazamiento{
+        background-color: rgba(255, 255, 255, 0.0);
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.115);
+        }
+    }
 }
 

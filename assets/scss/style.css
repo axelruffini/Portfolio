@@ -189,6 +189,21 @@ button {
   min-width: 90px;
 }
 
+.desplazamiento {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10%;
+  border: 1px solid #ffffff;
+  padding: 15px 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.115);
+  margin: 100px 0px 0px 0px;
+}
+
 /*--------------------- Responsive ---------------------*/
 @media (min-width: 1000px) {
   header {
@@ -264,5 +279,11 @@ button {
     background-color: rgba(0, 0, 0, 0);
     width: 30px; /* es la misma media que imgIcon */
     margin: 0px 15px;
+  }
+  .desplazamiento {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .desplazamiento:hover {
+    background-color: rgba(255, 255, 255, 0.115);
   }
 }/*# sourceMappingURL=style.css.map */
