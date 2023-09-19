@@ -58,6 +58,7 @@ h2 {
   font-size: 22px;
   color: #778DA9;
   font-weight: bolder;
+  display: block;
 }
 
 h3 {
@@ -180,7 +181,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   color: white;
   padding: 5px 5px;
   height: -moz-fit-content;
@@ -195,13 +195,40 @@ button {
   position: absolute;
   bottom: 10%;
   border: 1px solid #ffffff;
-  padding: 15px 30px;
+  padding: 15px 20px;
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
   background-color: rgba(255, 255, 255, 0.115);
   margin: 100px 0px 0px 0px;
+}
+
+.divHabilidades {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 40px 20px;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 90%;
+}
+
+.globo {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5px 5px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(252, 76, 76);
+  width: 90px;
+  margin: 0px 8px;
 }
 
 /*--------------------- Responsive ---------------------*/

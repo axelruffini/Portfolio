@@ -45,6 +45,7 @@ h2{ //titulo
     @include textos(22px,center);
     color: #778DA9;
     font-weight:bolder;
+    display: block;
 }
 
 h3{ 
@@ -160,7 +161,6 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
     color: white;
     padding: 5px 5px;
     height: fit-content;
@@ -174,9 +174,32 @@ button{
     position: absolute;
     bottom: 10%;
     border: 1px solid #ffffff;
-    padding: 15px 30px;
+    padding: 15px 20px;
     height: fit-content;
     width: fit-content;
     background-color: rgba(255, 255, 255, 0.115);
     margin: 100px 0px 0px 0px;
+}
+
+.divHabilidades{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 40px 20px;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 90%;
+}
+
+.globo{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 5px;
+    height: fit-content;
+    background-color: rgb(252, 76, 76);
+    width: 90px;
+    margin: 0px 8px;
 }
