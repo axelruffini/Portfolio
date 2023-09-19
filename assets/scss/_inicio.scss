@@ -190,7 +190,8 @@ button{
     width: 90%;
 }
 
-.globo{
+
+.globo1{
     border-radius: 100px;
     @include textos(10px,center);
     display: flex;
@@ -199,7 +200,49 @@ button{
     color: white;
     padding: 5px 5px;
     height: fit-content;
-    background-color: rgb(252, 76, 76);
+    background-color: #e76f51;
+    width: 90px;
+    margin: 0px 8px;
+}
+
+.globo2{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 5px;
+    height: fit-content;
+    background-color: #e9c46a;
+    width: 90px;
+    margin: 0px 8px;
+}
+
+.globo3{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 5px;
+    height: fit-content;
+    background-color: #fb6f92;
+    width: 90px;
+    margin: 0px 8px;
+}
+
+.globo4{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 5px;
+    height: fit-content;
+    background-color: #9b5de5;
     width: 90px;
     margin: 0px 8px;
 }
