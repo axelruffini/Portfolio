@@ -6,10 +6,11 @@ html{
 }
 
 body {
+    display: flex;
+    justify-content: center;
     background: rgb(23,37,52);
     background: linear-gradient(146deg, rgba(23,37,52,1) 0%, rgba(0,0,0,1) 100vw);    margin: 0;
     padding: 0;
-    width: 100vw;
 }
 
 header{
@@ -36,6 +37,10 @@ header{
             text-decoration: none;
         }
     }
+}
+
+article{
+    max-width: 1500px;
 }
 
 h1{ //solo se usa 1 vez
@@ -80,18 +85,15 @@ a{
         background: linear-gradient(to right, #ff7573, #ff73a2, #a673ff, #72c0ff, #72efff, #72ff79, #f3ff71, #ffc971, #ff9474);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
 }
 
 .txt-Color{
     color: rgb(0, 0, 0);
-    
 }
 
 .grupo-tarjetas{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .tarjetas{

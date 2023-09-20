@@ -11,11 +11,12 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
   background: rgb(23, 37, 52);
   background: linear-gradient(146deg, rgb(23, 37, 52) 0%, rgb(0, 0, 0) 100vw);
   margin: 0;
   padding: 0;
-  width: 100vw;
 }
 
 header {
@@ -43,6 +44,10 @@ header nav a {
   font-weight: lighter;
   margin: 15px;
   text-decoration: none;
+}
+
+article {
+  max-width: 1500px;
 }
 
 h1 {
@@ -108,7 +113,6 @@ a {
 .grupo-tarjetas {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .tarjetas {
