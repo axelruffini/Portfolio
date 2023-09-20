@@ -12,9 +12,10 @@ html {
 
 body {
   background: rgb(23, 37, 52);
-  background: linear-gradient(146deg, rgb(23, 37, 52) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(146deg, rgb(23, 37, 52) 0%, rgb(0, 0, 0) 100vw);
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 
 header {
@@ -45,6 +46,7 @@ header nav a {
 }
 
 h1 {
+  margin-top: 180px;
   font-family: "Maven Pro", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -162,7 +164,6 @@ button {
 }
 
 .sobre-mi {
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,19 +175,15 @@ button {
 .CV {
   border-radius: 100px;
   border: 1px solid #ffffff;
-  font-family: "Maven Pro", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
-  padding: 5px 5px;
-  height: -moz-fit-content;
-  height: fit-content;
   background-color: rgba(255, 255, 255, 0.115);
-  min-width: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
 .desplazamiento {
@@ -209,8 +206,8 @@ button {
   flex-direction: row;
   margin: 20px 20px 40px 20px;
   flex-wrap: wrap;
-  height: 100px;
-  width: 90%;
+  height: 12vh;
+  width: 90vw;
 }
 
 .globo1 {
@@ -223,11 +220,12 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 10px;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #e76f51;
-  width: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 0px 8px;
 }
 
@@ -241,11 +239,12 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 10px;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #e9c46a;
-  width: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 0px 8px;
 }
 
@@ -259,11 +258,12 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 10px;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #fb6f92;
-  width: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 0px 8px;
 }
 
@@ -273,15 +273,16 @@ button {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
+  background-color: #9b5de5;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 10px;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #9b5de5;
-  width: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 0px 8px;
 }
 
@@ -317,11 +318,11 @@ button {
     background-color: rgba(0, 7, 107, 0.261);
   }
   h1 {
+    margin-top: 15%;
     font-family: "Maven Pro", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 88px;
-    margin: 0px;
+    font-size: 40px;
   }
   h2 {
     font-family: "Maven Pro", sans-serif;
@@ -341,14 +342,17 @@ button {
     max-width: 600px;
   }
   .CV {
-    font-family: "Maven Pro", sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 15px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.115);
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 15px;
     display: flex;
-    padding: 5px 5px;
-    min-width: 150px;
-    margin-right: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .imgIcon {
     height: 30px;

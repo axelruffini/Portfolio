@@ -31,8 +31,8 @@
     }
 
     h1{ //solo se usa 1 vez
-        @include textos(88px,center);
-        margin: 0px;
+        margin-top: 15%;
+        @include textos(40px,center);
     }
     
     h2{ //titulo
@@ -48,11 +48,17 @@
         max-width: 600px;
     }
     .CV{
-        @include textos(15px,center);
+        border-radius: 100px;
+        border: 1px solid #ffffff;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.115);
+        width: fit-content;
+        padding: 15px;
+    
         display: flex;
-        padding: 5px 5px;
-        min-width: 150px;
-        margin-right: 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .imgIcon{
         height: 30px;
