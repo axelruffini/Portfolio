@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     background: rgb(23,37,52);
-    background: linear-gradient(146deg, rgba(23,37,52,1) 0%, rgba(0,0,0,1) 100vw);    margin: 0;
+    background: linear-gradient(146deg, rgb(32, 57, 85) 0%, rgba(0,0,0,1) 100vw);    margin: 0;
     padding: 0;
 }
 
@@ -142,10 +142,11 @@ button{
 }
 
 .btnContactos{
-    border-style: none;
-    background-color: #00000000;
-    width: 20px; /* es la misma media que imgIcon */
+    background-color: rgba(255, 255, 255, 0.115);
+    width: 50px;
+    height: 50px;
     margin: 0px 10px;
+    border: 1px solid transparent;
 }
 
 .sobre-mi{
@@ -159,7 +160,6 @@ button{
 
 .CV{
     border-radius: 100px;
-    border: 1px solid #ffffff;
     color: white;
     background-color: rgba(255, 255, 255, 0.115);
     width: fit-content;
@@ -187,12 +187,14 @@ button{
 .divHabilidades{
     display: flex;
     flex-direction: row;
-    margin: 20px 20px 40px 20px;
+    margin: 20px 0px;
     flex-wrap: wrap;
-    height: 12vh;
-    width: 90vw;
+    justify-content: center;
 }
 
+.hab-margin{
+    margin-bottom:100px;
+}
 
 .globo1{
     border-radius: 100px;
