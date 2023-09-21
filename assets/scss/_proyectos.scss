@@ -1,0 +1,71 @@
+.grupo-tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjetas{
+    display: flex;
+    height: fit-content;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+    .img-tarjeta{
+        height: 160px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+
+
+
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+}
+
+
+@media(min-width: 1000px){
+
+    .grupo-tarjetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .tarjetas{
+            width: 300px;
+            height: fit-content;
+            &:hover{
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.323);
+                transition: 0.2s;
+                transform: scale(102%);
+            }
+        }
+    }
+
+
+    .btn-contactos{
+        background-color: rgba(255, 255, 255, 0.115);
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+        border-color: none;
+    }
+    .btn-desplazamiento{
+        background-color: rgba(255, 255, 255, 0.0);
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.115);
+        }
+    }
+}

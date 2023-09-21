@@ -9,15 +9,17 @@ $ColorGris: #00000008;
 $ColorSeleccion: black;
 /*--------------------- PAGINA "INICIO" ---------------------*/
 
-@import "inicio";
-
-
+@import "globales";
 
 /*--------------------- Responsive ---------------------*/
 
-@import "responsive";
 
-
+/*--------------------- Sobre mi ---------------------*/
 @import "sobreMi";
 
+/*--------------------- Habilidades ---------------------*/
 @import "habilidades";
+
+/*--------------------- Proyectos ---------------------*/
+@import "proyectos";
+

@@ -81,43 +81,34 @@ a{
     margin-left: 50px;
 }
 
-
-
 .txt-Color{
     color: rgb(0, 0, 0);
 }
 
-.grupo-tarjetas{
-    display: flex;
-    flex-direction: column;
-}
+@media(min-width: 1000px){
+    h1{ //solo se usa 1 vez
+        margin-top: 20%;
+        @include textos(40px,center);
+    }
+    
+    h2{ //titulo
+        @include textos(37px,center);
+        color: #778DA9;
+        font-weight:bolder;
+    }
+    
+    p{ //parrafo
+        @include textos(17px,center);
+        color: rgb(255, 255, 255);
+        font-weight:300;
+        max-width: 600px;
+    }
 
-.tarjetas{
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    min-height: 300px;
-}
+    header{
+        @include textos(20px,center);
+    }
+    .paginas{
+        flex-direction: column;
+    }
 
-.imgTarjeta{
-    height: 160px;
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid #000;
-}
-
-
-button{
-    background-color: white;
-    padding: 10px;
-    border-radius: 100px;
-    width: 100px;
-    border-style: solid;
-    border-color: black;
-    text-decoration: none;
 }
