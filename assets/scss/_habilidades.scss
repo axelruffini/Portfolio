@@ -1,0 +1,67 @@
+.cont-globos-habilidades{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mb-hab-cont{
+    margin-bottom:100px;
+}
+
+.globo1{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    height: fit-content;
+    background-color: #e76f51;
+    width: fit-content;
+    margin: 0px 8px;
+}
+
+.globo2{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    height: fit-content;
+    background-color: #e9c46a;
+    width: fit-content;
+    margin: 0px 8px;
+}
+
+.globo3{
+    border-radius: 100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    height: fit-content;
+    background-color: #fb6f92;
+    width: fit-content;
+    margin: 0px 8px;
+}
+
+.globo4{
+    border-radius: 100px;
+    @include textos(10px,center);
+    background-color: #9b5de5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: 0px 8px;
+}

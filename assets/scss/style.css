@@ -100,12 +100,6 @@ a {
   margin-left: 50px;
 }
 
-.txt-rw {
-  background: linear-gradient(to right, #ff7573, #ff73a2, #a673ff, #72c0ff, #72efff, #72ff79, #f3ff71, #ffc971, #ff9474);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .txt-Color {
   color: rgb(0, 0, 0);
 }
@@ -143,154 +137,6 @@ button {
   border-style: solid;
   border-color: black;
   text-decoration: none;
-}
-
-.grupoContactos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  width: auto;
-  margin-top: 20px;
-}
-
-.imgIcon {
-  height: 20px;
-  width: 20px;
-  filter: invert(100);
-}
-
-.btnContactos {
-  background-color: rgba(255, 255, 255, 0.115);
-  width: 50px;
-  height: 50px;
-  margin: 0px 10px;
-  border: 1px solid transparent;
-}
-
-.sobre-mi {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-}
-
-.CV {
-  border-radius: 100px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.115);
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-}
-
-.desplazamiento {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 10%;
-  border: 1px solid #ffffff;
-  padding: 15px 20px;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: rgba(255, 255, 255, 0.115);
-  margin: 100px 0px 0px 0px;
-}
-
-.divHabilidades {
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.hab-margin {
-  margin-bottom: 100px;
-}
-
-.globo1 {
-  border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #e76f51;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
-}
-
-.globo2 {
-  border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #e9c46a;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
-}
-
-.globo3 {
-  border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #fb6f92;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
-}
-
-.globo4 {
-  border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  background-color: #9b5de5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
 }
 
 /*--------------------- Responsive ---------------------*/
@@ -378,4 +224,157 @@ button {
   .desplazamiento:hover {
     background-color: rgba(255, 255, 255, 0.115);
   }
+}
+.sobre-mi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.txt-rw {
+  background: linear-gradient(to right, #ff7573, #ff73a2, #a673ff, #72c0ff, #72efff, #72ff79, #f3ff71, #ffc971, #ff9474);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imgIcon {
+  height: 20px;
+  width: 20px;
+  filter: invert(100);
+}
+
+.CV {
+  border-radius: 100px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.115);
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.btnContactos {
+  background-color: rgba(255, 255, 255, 0.115);
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 1px solid transparent;
+}
+
+.btn-desplazamiento {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10%;
+  border: 1px solid #ffffff;
+  padding: 15px 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.115);
+  margin: 100px 0px 0px 0px;
+}
+
+.grupoContactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: auto;
+  margin-top: 20px;
+}
+
+.cont-globos-habilidades {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mb-hab-cont {
+  margin-bottom: 100px;
+}
+
+.globo1 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #e76f51;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 8px;
+}
+
+.globo2 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #e9c46a;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 8px;
+}
+
+.globo3 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fb6f92;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 8px;
+}
+
+.globo4 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  background-color: #9b5de5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 8px;
 }/*# sourceMappingURL=style.css.map */
