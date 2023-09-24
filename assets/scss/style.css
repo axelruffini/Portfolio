@@ -7,7 +7,7 @@
 /*--------------------- PAGINA "INICIO" ---------------------*/
 html {
   scroll-behavior: smooth;
-  scroll-padding: 10rem;
+  scroll-padding: 5rem;
 }
 
 body {
@@ -265,12 +265,10 @@ a {
   align-items: center;
   color: white;
   padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #e76f51;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background-image: linear-gradient(#fb8500, #ffac4d);
 }
 
 .globo2 {
@@ -284,12 +282,10 @@ a {
   align-items: center;
   color: white;
   padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #e9c46a;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background-image: linear-gradient(#5183e7, #7aa6fd);
 }
 
 .globo3 {
@@ -303,12 +299,10 @@ a {
   align-items: center;
   color: white;
   padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #fb6f92;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
+  background-image: linear-gradient(#fb6f92, #fc9db3);
+  width: 100px;
+  height: 100px;
+  margin: 8px;
 }
 
 .globo4 {
@@ -317,19 +311,31 @@ a {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
-  background-color: #9b5de5;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   padding: 10px 10px;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0px 8px;
+  background-color: #7678ed;
+  background-image: linear-gradient(#7678ed, #9d9eff);
+  width: 100px;
+  height: 100px;
+  margin: 8px;
 }
 
+@media (min-width: 1000px) {
+  .globo1:hover {
+    box-shadow: 0px 0px 20px rgba(251, 133, 0, 0.6745098039);
+  }
+  .globo2:hover {
+    box-shadow: 0px 0px 20px rgba(81, 131, 231, 0.6745098039);
+  }
+  .globo3:hover {
+    box-shadow: 0px 0px 20px rgba(251, 111, 146, 0.6745098039);
+  }
+  .globo4:hover {
+    box-shadow: 0px 0px 20px rgba(118, 120, 237, 0.6745098039);
+  }
+}
 /*--------------------- Proyectos ---------------------*/
 .grupo-tarjetas {
   display: flex;

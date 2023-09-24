@@ -11,61 +11,82 @@
 }
 
 .globo1{
-    border-radius: 100px;
+    border-radius:100px;
     @include textos(10px,center);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     padding: 10px 10px;
-    height: fit-content;
-    background-color: #e76f51;
-    width: fit-content;
-    margin: 0px 8px;
+    width: 100px;
+    height: 100px;
+    margin:  8px;
+    background-image: linear-gradient(#fb8500, #ffac4d);
+
 }
 
 .globo2{
-    border-radius: 100px;
+    border-radius:100px;
     @include textos(10px,center);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     padding: 10px 10px;
-    height: fit-content;
-    background-color: #e9c46a;
-    width: fit-content;
-    margin: 0px 8px;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-image: linear-gradient(#5183e7, #7aa6fd);
+
 }
 
 .globo3{
-    border-radius: 100px;
+    border-radius:100px;
     @include textos(10px,center);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     padding: 10px 10px;
-    height: fit-content;
-    background-color: #fb6f92;
-    width: fit-content;
-    margin: 0px 8px;
+    background-image: linear-gradient(#fb6f92, #fc9db3);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
 }
 
 .globo4{
-    border-radius: 100px;
+    border-radius:100px;
     @include textos(10px,center);
-    background-color: #9b5de5;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     padding: 10px 10px;
-    height: fit-content;
-    width: fit-content;
-    margin: 0px 8px;
+    background-color: #7678ed;
+    background-image: linear-gradient(#7678ed, #9d9eff);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
 }
 
 @media(min-width: 1000px){
-
+    .globo1{
+        &:hover{
+            box-shadow:0px 0px 20px #fb8500ac;
+        }
+    }
+    .globo2{
+        &:hover{
+            box-shadow:0px 0px 20px #5183e7ac;
+        }
+    }
+    .globo3{
+        &:hover{
+            box-shadow:0px 0px 20px #fb6f92ac;
+        }
+    }
+    .globo4{
+        &:hover{
+            box-shadow:0px 0px 20px #7678edac;
+        }
+    }
 }
