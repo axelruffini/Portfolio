@@ -10,9 +10,14 @@
     margin-bottom:100px;
 }
 
+.txt-habilidades{
+    font-weight:bold;
+    @include textos(20px,center);
+}
+
 .globo1{
     border-radius:100px;
-    @include textos(10px,center);
+    font-weight:bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +28,13 @@
     margin:  8px;
     background-image: linear-gradient(#fb8500, #ffac4d);
 
+
 }
 
 .globo2{
     border-radius:100px;
     @include textos(10px,center);
+    font-weight:bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +50,7 @@
 .globo3{
     border-radius:100px;
     @include textos(10px,center);
+    font-weight:bolder;
     display: flex;
     justify-content: center;
     align-items: center;
