@@ -100,10 +100,6 @@ a {
   margin-left: 50px;
 }
 
-.txt-Color {
-  color: rgb(0, 0, 0);
-}
-
 @media (min-width: 1000px) {
   h1 {
     margin-top: 20%;
@@ -162,6 +158,12 @@ a {
   filter: invert(100);
 }
 
+.imgIcon2 {
+  height: 50px;
+  width: 50px;
+  filter: invert(100);
+}
+
 .CV {
   border-radius: 100px;
   color: white;
@@ -177,21 +179,18 @@ a {
 
 .btn-CV {
   background-color: #4b7658;
+  background-image: linear-gradient(#003d5b, #235e7b);
 }
 
 .btn-desplazamiento {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   bottom: 10%;
-  border: 1px solid #ffffff;
-  padding: 15px 20px;
+  border: none;
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: rgba(255, 255, 255, 0.115);
-  margin: 100px 0px 0px 0px;
+  background-color: transparent;
 }
 
 .grupo-contacto {
@@ -206,7 +205,7 @@ a {
   background-color: rgba(255, 255, 255, 0.115);
   width: 50px;
   height: 50px;
-  margin: 0px 10px;
+  margin: 0px 5px;
   border: 1px solid transparent;
 }
 
@@ -223,17 +222,24 @@ a {
     justify-content: center;
     padding: 15px;
   }
+  .btn-CV {
+    background-color: #4b7658;
+  }
   .img-icon {
     height: 20px;
     width: 20px;
     filter: invert(100);
   }
-  .btn-contactos {
-    background-color: rgba(255, 255, 255, 0.115);
-    width: 50px;
-    height: 50px;
+  .grupo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    margin-top: 20px;
+  }
+  .grupo-contacto .btn-contactos {
     margin: 0px 10px;
-    border-color: none;
   }
   .btn-desplazamiento {
     background-color: rgba(255, 255, 255, 0);
@@ -323,8 +329,39 @@ a {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-color: #7678ed;
-  background-image: linear-gradient(#7678ed, #9d9eff);
+  background-image: linear-gradient(#ffb703, #ffcc4b);
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+}
+
+.globo5 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background-image: linear-gradient(#003d5b, #316986);
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+}
+
+.globo6 {
+  border-radius: 100px;
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background-image: linear-gradient(#44355b, #766196);
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -356,27 +393,28 @@ a {
   height: -moz-fit-content;
   height: fit-content;
   width: 300px;
+  height: 300px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #101a1f;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
-  min-height: 300px;
 }
 .tarjetas .img-tarjeta {
   height: 160px;
   width: 100%;
   border-radius: 10px;
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 button {
   background-color: white;
   padding: 10px;
   border-radius: 100px;
-  width: 100px;
+  width: 250px;
+  height: 50px;
   border-style: solid;
   border-color: black;
   text-decoration: none;
@@ -388,11 +426,6 @@ button {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .grupo-tarjetas .tarjetas {
-    width: 300px;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   .grupo-tarjetas .tarjetas:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.323);

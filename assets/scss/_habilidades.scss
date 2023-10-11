@@ -69,8 +69,33 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    background-color: #7678ed;
-    background-image: linear-gradient(#7678ed, #9d9eff);
+    background-image: linear-gradient(#ffb703, #ffcc4b);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo5{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#003d5b, #316986);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo6{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#44355b, #766196);
     width: 100px;
     height: 100px;
     margin: 8px;
