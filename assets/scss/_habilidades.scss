@@ -1,0 +1,158 @@
+.cont-globos-habilidades{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.cont-hab-cont{
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-habilidades{
+    font-weight:bold;
+    @include textos(20px,center);
+}
+
+.globo1{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+    margin:  8px;
+    background-image: linear-gradient(#fb8500, #ffac4d);
+
+
+}
+
+.globo2{
+    border-radius:100px;
+    @include textos(10px,center);
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-image: linear-gradient(#5183e7, #7aa6fd);
+
+}
+
+.globo3{
+    border-radius:100px;
+    @include textos(10px,center);
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    background-image: linear-gradient(#fb6f92, #fc9db3);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo4{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#ffb703, #ffcc4b);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo5{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#003d5b, #316986);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo6{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#44355b, #766196);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+.globo7{
+    border-radius:100px;
+    @include textos(10px,center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(#4A5D23, #7a904e);
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+
+@media(min-width: 1000px){
+    .globo1{
+        &:hover{
+            box-shadow:0px 0px 20px #fb8500ac;
+        }
+    }
+    .globo2{
+        &:hover{
+            box-shadow:0px 0px 20px #5183e7ac;
+        }
+    }
+    .globo3{
+        &:hover{
+            box-shadow:0px 0px 20px #fb6f92ac;
+        }
+    }
+    .globo4{
+        &:hover{
+            box-shadow:0px 0px 20px #ffb703;
+        }
+    }
+    .globo5{
+        &:hover{
+            box-shadow:0px 0px 20px #003d5b;
+        }
+    }
+    .globo6{
+        &:hover{
+            box-shadow:0px 0px 20px #7678edac;
+        }
+    }
+    .globo7{
+        &:hover{
+            box-shadow:0px 0px 20px #4A5D23;
+        }
+    }
+}

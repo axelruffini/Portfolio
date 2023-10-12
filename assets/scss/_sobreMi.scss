@@ -1,0 +1,118 @@
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.txt-rw{
+    background: linear-gradient(to right, #ff7573, #ff73a2, #a673ff, #72c0ff, #72efff, #72ff79, #f3ff71, #ffc971, #ff9474);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imgIcon{
+    height: 20px;
+    width: 20px;
+    filter: invert(100);
+}
+
+.imgIcon2{
+    height: 50px;
+    width: 50px;
+    filter: invert(100);
+}
+
+.CV{
+    border-radius: 100px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.115);
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.btn-CV{
+    background-color: #4b7658;
+    background-image: linear-gradient(#003d5b, #235e7b);
+
+}
+
+.btn-desplazamiento{
+    position: absolute;
+    bottom: 10%;
+    border:  none;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.grupo-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    margin-top: 20px;
+    .btn-contactos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        background-color: rgba(255, 255, 255, 0.115);
+        width: 50px;
+        height: 50px;
+        border: 1px solid transparent;
+    }
+}
+
+@media(min-width: 1000px){
+    .CV{
+        border-radius: 100px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.115);
+        width: fit-content;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    .btn-CV{
+        background-color: #4b7658;
+    }
+    .img-icon{
+        height: 20px;
+        width: 20px;
+        filter: invert(100);
+    }
+
+
+    .grupo-contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: auto;
+        margin-top: 20px;
+        .btn-contactos{
+            margin: 0px 10px;
+        }
+    }
+
+    
+    .btn-desplazamiento{
+        background-color: rgba(255, 255, 255, 0.0);
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.115);
+        }
+    }
+}
