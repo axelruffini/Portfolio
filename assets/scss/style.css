@@ -8,6 +8,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 5rem;
+  background: rgb(23, 37, 52);
 }
 
 body {
@@ -430,7 +431,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: #101a1f;
+  background: rgb(23, 37, 52);
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
