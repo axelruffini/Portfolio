@@ -5,6 +5,15 @@
     text-align: center;
     height: 100vh;
     width: 100vw;
+    animation: fadein 2s;
+    @keyframes fadein {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
 
 }
 
@@ -13,6 +22,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .imgIcon{
     height: 20px;
@@ -105,14 +115,6 @@
         margin-top: 20px;
         .btn-contactos{
             margin: 0px 10px;
-        }
-    }
-
-    
-    .btn-desplazamiento{
-        background-color: rgba(255, 255, 255, 0.0);
-        &:hover{
-            background-color: rgba(255, 255, 255, 0.115);
         }
     }
 }
