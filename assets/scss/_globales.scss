@@ -46,7 +46,7 @@ article{
 
 h1{ //solo se usa 1 vez
     margin-top: 180px;
-    @include textos(40px,center);
+    @include textos(50px,center);
     font-weight:bolder;
 
 }
@@ -54,7 +54,7 @@ h1{ //solo se usa 1 vez
 h2{ //titulo
     @include textos(22px,center);
     color: #778DA9;
-    font-weight:lighter;
+    font-weight:bold;
     display: block;
 }
 
@@ -95,14 +95,16 @@ a{
 
 @media(min-width: 1000px){
     h1{ //solo se usa 1 vez
-        margin-top: 20%;
+        margin-top: 10%;
         @include textos(40px,center);
+        font-weight:800;
+
     }
     
     h2{ //titulo
         @include textos(37px,center);
         color: #778DA9;
-        font-weight:bolder;
+        font-weight:700;
     }
     
     p{ //parrafo
