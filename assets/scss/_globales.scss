@@ -47,24 +47,26 @@ article{
 h1{ //solo se usa 1 vez
     margin-top: 180px;
     @include textos(40px,center);
+    font-weight:bolder;
+
 }
 
 h2{ //titulo
     @include textos(22px,center);
     color: #778DA9;
-    font-weight:bolder;
+    font-weight:lighter;
     display: block;
 }
 
 h3{ 
     @include textos(20px,center);
-    font-weight:600;
+    font-weight:bold;
     margin: 10px 0px;
 }
 
 h4{ 
     @include textos(20px,center);
-    font-weight:600;
+    font-weight:400;
     color: black
 }
 
@@ -81,6 +83,7 @@ a{
 
 .margin-b{
     margin-bottom: 20px ;
+    color: rgb(213, 213, 213);
 }
 
 .txt-aling{

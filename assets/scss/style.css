@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 20px;
@@ -53,42 +53,43 @@ article {
 
 h1 {
   margin-top: 180px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 h2 {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 22px;
   color: #778DA9;
-  font-weight: bolder;
+  font-weight: lighter;
   display: block;
 }
 
 h3 {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   margin: 10px 0px;
 }
 
 h4 {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: black;
 }
 
 p {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 15px;
@@ -103,6 +104,7 @@ a {
 
 .margin-b {
   margin-bottom: 20px;
+  color: rgb(213, 213, 213);
 }
 
 .txt-aling {
@@ -113,13 +115,13 @@ a {
 @media (min-width: 1000px) {
   h1 {
     margin-top: 20%;
-    font-family: "Maven Pro", sans-serif;
+    font-family: "Nunito", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
   }
   h2 {
-    font-family: "Maven Pro", sans-serif;
+    font-family: "Nunito", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 37px;
@@ -127,7 +129,7 @@ a {
     font-weight: bolder;
   }
   p {
-    font-family: "Maven Pro", sans-serif;
+    font-family: "Nunito", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 17px;
@@ -136,7 +138,7 @@ a {
     max-width: 600px;
   }
   header {
-    font-family: "Maven Pro", sans-serif;
+    font-family: "Nunito", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
@@ -154,7 +156,7 @@ a {
   text-align: center;
   height: 100vh;
   width: 100vw;
-  animation: fadein 2s;
+  animation: fadein 3s;
 }
 @keyframes fadein {
   0% {
@@ -284,10 +286,108 @@ a {
 
 .txt-habilidades {
   font-weight: bold;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 20px;
+}
+
+.globos-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100px;
+}
+
+.globo1-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-color: #e48315;
+}
+
+.globo2-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-color: #5183e7;
+}
+
+.globo3-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-color: #fb6f92;
+}
+
+.globo4-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 100px;
+  background-color: #ffb703;
+}
+
+.globo5-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-image: linear-gradient(#003d5b, #316986);
+}
+
+.globo6-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-image: linear-gradient(#44355b, #766196);
+}
+
+.globo7-small {
+  border-radius: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 50px;
+  background-image: linear-gradient(#4A5D23, #7a904e);
 }
 
 .globo1 {
@@ -306,7 +406,7 @@ a {
 
 .globo2 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -324,7 +424,7 @@ a {
 
 .globo3 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -342,7 +442,7 @@ a {
 
 .globo4 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -358,7 +458,7 @@ a {
 
 .globo5 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -374,7 +474,7 @@ a {
 
 .globo6 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -390,7 +490,7 @@ a {
 
 .globo7 {
   border-radius: 100px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 10px;
@@ -439,7 +539,7 @@ a {
   height: -moz-fit-content;
   height: fit-content;
   width: 300px;
-  height: 350px;
+  height: 450px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;

@@ -20,6 +20,106 @@
     @include textos(20px,center);
 }
 
+.globos-small{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    width: 100px;
+}
+
+.globo1-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-color:#e48315;
+}
+
+.globo2-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-color:#5183e7;
+
+}
+
+.globo3-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-color:#fb6f92;
+}
+
+.globo4-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 100px;
+    background-color:#ffb703;
+}
+
+.globo5-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-image: linear-gradient(#003d5b, #316986);
+
+}
+
+.globo6-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-image: linear-gradient(#44355b, #766196);
+}
+
+.globo7-small{
+    border-radius:100px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin:  10px 5px;
+    width: 50px;
+    background-image: linear-gradient(#4A5D23, #7a904e);
+}
+
 .globo1{
     border-radius:100px;
     font-weight:bolder;
@@ -118,6 +218,7 @@
     height: 100px;
     margin: 8px;
 }
+
 
 @media(min-width: 1000px){
     .globo1{
