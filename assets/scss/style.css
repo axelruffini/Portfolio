@@ -297,8 +297,11 @@ a {
 .globos-small {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .globo1-small {
@@ -311,6 +314,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-color: #e48315;
 }
 
@@ -324,6 +328,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-color: #5183e7;
 }
 
@@ -337,6 +342,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-color: #fb6f92;
 }
 
@@ -349,7 +355,10 @@ a {
   color: white;
   padding: 10px;
   margin: 10px 5px;
-  width: 100px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100px;
+  height: 20px;
   background-color: #ffb703;
 }
 
@@ -363,6 +372,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-image: linear-gradient(#003d5b, #316986);
 }
 
@@ -376,6 +386,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-image: linear-gradient(#44355b, #766196);
 }
 
@@ -389,6 +400,7 @@ a {
   padding: 10px;
   margin: 10px 5px;
   width: 50px;
+  height: 20px;
   background-image: linear-gradient(#4A5D23, #7a904e);
 }
 
@@ -541,7 +553,7 @@ a {
   height: -moz-fit-content;
   height: fit-content;
   width: 300px;
-  height: 450px;
+  height: 500px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -555,6 +567,7 @@ a {
      object-fit: cover;
   width: 300px;
   height: 200px;
+  min-height: 200px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0);
 }

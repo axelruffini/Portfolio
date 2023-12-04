@@ -22,9 +22,12 @@
 
 .globos-small{
     display: flex;
-    flex-direction:row ;
+    flex-direction:row;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100px;
+    align-items: center;
+    width: 100%;
+    height:100%;
 }
 
 .globo1-small{
@@ -37,6 +40,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-color:#e48315;
 }
 
@@ -50,6 +54,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-color:#5183e7;
 
 }
@@ -64,6 +69,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-color:#fb6f92;
 }
 
@@ -76,7 +82,9 @@
     color: white;
     padding: 10px;
     margin:  10px 5px;
-    width: 100px;
+    width: fit-content;
+    max-width: 100px;
+    height: 20px;
     background-color:#ffb703;
 }
 
@@ -90,6 +98,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-image: linear-gradient(#003d5b, #316986);
 
 }
@@ -104,6 +113,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-image: linear-gradient(#44355b, #766196);
 }
 
@@ -117,6 +127,7 @@
     padding: 10px;
     margin:  10px 5px;
     width: 50px;
+    height: 20px;
     background-image: linear-gradient(#4A5D23, #7a904e);
 }
 
