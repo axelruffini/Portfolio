@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M16.5 7.5l0 .01" />
+<svg width="53" height="52" viewBox="0 0 53 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="26.5441" cy="25.6324" r="25.6324" fill="#6A994E" fill-opacity="0.1"/>
+<g clip-path="url(#clip0_86_16)">
+<path d="M15.7748 20.2056C15.7748 18.7887 16.3376 17.4298 17.3396 16.4279C18.3415 15.426 19.7004 14.8631 21.1173 14.8631H31.8023C33.2192 14.8631 34.5781 15.426 35.58 16.4279C36.5819 17.4298 37.1448 18.7887 37.1448 20.2056V30.8906C37.1448 32.3075 36.5819 33.6664 35.58 34.6683C34.5781 35.6702 33.2192 36.2331 31.8023 36.2331H21.1173C19.7004 36.2331 18.3415 35.6702 17.3396 34.6683C16.3376 33.6664 15.7748 32.3075 15.7748 30.8906V20.2056Z" stroke="#386641" stroke-width="2.92941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.4529 25.548C22.4529 26.6107 22.875 27.6299 23.6265 28.3813C24.3779 29.1328 25.3971 29.5549 26.4598 29.5549C27.5224 29.5549 28.5416 29.1328 29.293 28.3813C30.0445 27.6299 30.4666 26.6107 30.4666 25.548C30.4666 24.4854 30.0445 23.4662 29.293 22.7148C28.5416 21.9633 27.5224 21.5412 26.4598 21.5412C25.3971 21.5412 24.3779 21.9633 23.6265 22.7148C22.875 23.4662 22.4529 24.4854 22.4529 25.548Z" stroke="#386641" stroke-width="2.92941" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.4702 19.5378V19.551" stroke="#386641" stroke-width="2.92941" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_86_16">
+<rect width="32.055" height="32.055" fill="white" transform="translate(10.4324 9.5206)"/>
+</clipPath>
+</defs>
 </svg>
-
-
