@@ -51,8 +51,8 @@ h1{ //solo se usa 1 vez
 
 h2{ //titulo
     @include textos(22px,center);
-    color: #778DA9;
     font-weight:bold;
+    color: black;
     display: block;
 }
 
@@ -89,22 +89,43 @@ a{
 }
 
 .colorFondo{
-    background-color:#474aff21;
-    height: 400px;
-    width: 400px;
+    background-color:rgba(0, 0, 255, 0.079);
+    height: 300px;
+    width: 300px;
     position: absolute;
     border-radius: 100%;
-    animation-name: ciculoasdasda;
-    animation-duration: 5s;
+    animation-name: ciculoazul;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    -webkit-box-shadow: 0 -5px 32px 32px #474aff21;
-    -moz-box-shadow: 0 -5px 32px 32px #474aff21;
-    box-shadow: 0 -5px 32px 32px #474aff21;
+    -webkit-box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+    -moz-box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+    box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
 }
 
-@keyframes ciculoasdasda{
-    0% {left: 100%; bottom: 0%;}
+.colorFondo2{
+    background-color:rgba(85, 255, 0, 0.112);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 100%;
+    animation-name: circuloverde;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.06);
+    -moz-box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.06);
+    box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.06);
+}
+
+@keyframes ciculoazul{
+    0% {left:50%; bottom: 0%;}
     50% {left: 0%; bottom: 0%;}
-    100% {left: 100%; bottom: 0%;}
+    100% {left: 50%; bottom: 0%;}
+}
+
+@keyframes circuloverde{
+    0% {left: 0%; top: 0%;}
+    50% {left: 20%; top: 0%;}
+    100% {left: 0%; top: 0%;}
 }
