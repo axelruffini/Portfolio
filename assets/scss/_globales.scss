@@ -88,34 +88,23 @@ a{
     margin-left: 50px;
 }
 
+.colorFondo{
+    background-color:#474aff21;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 100%;
+    animation-name: ciculoasdasda;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-box-shadow: 0 -5px 32px 32px #474aff21;
+    -moz-box-shadow: 0 -5px 32px 32px #474aff21;
+    box-shadow: 0 -5px 32px 32px #474aff21;
+}
 
-
-@media(min-width: 1000px){
-    h1{ //solo se usa 1 vez
-        margin-top: 10%;
-        @include textos(40px,center);
-        font-weight:800;
-
-    }
-    
-    h2{ //titulo
-        @include textos(37px,center);
-        color: #778DA9;
-        font-weight:700;
-    }
-    
-    p{ //parrafo
-        @include textos(17px,center);
-        color: rgb(255, 255, 255);
-        font-weight:300;
-        max-width: 600px;
-    }
-
-    header{
-        @include textos(20px,center);
-    }
-    .paginas{
-        flex-direction: column;
-    }
-
+@keyframes ciculoasdasda{
+    0% {left: 100%; bottom: 0%;}
+    50% {left: 0%; bottom: 0%;}
+    100% {left: 100%; bottom: 0%;}
 }

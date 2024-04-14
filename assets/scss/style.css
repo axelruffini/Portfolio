@@ -108,40 +108,31 @@ a {
   margin-left: 50px;
 }
 
-@media (min-width: 1000px) {
-  h1 {
-    margin-top: 10%;
-    font-family: "Nunito", sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+.colorFondo {
+  background-color: rgba(71, 74, 255, 0.1294117647);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  border-radius: 100%;
+  animation-name: ciculoasdasda;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  box-shadow: 0 -5px 32px 32px rgba(71, 74, 255, 0.1294117647);
+}
+
+@keyframes ciculoasdasda {
+  0% {
+    left: 100%;
+    bottom: 0%;
   }
-  h2 {
-    font-family: "Nunito", sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 37px;
-    color: #778DA9;
-    font-weight: 700;
+  50% {
+    left: 0%;
+    bottom: 0%;
   }
-  p {
-    font-family: "Nunito", sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 17px;
-    color: rgb(255, 255, 255);
-    font-weight: 300;
-    max-width: 600px;
-  }
-  header {
-    font-family: "Nunito", sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 20px;
-  }
-  .paginas {
-    flex-direction: column;
+  100% {
+    left: 100%;
+    bottom: 0%;
   }
 }
 /*--------------------- Responsive ---------------------*/
