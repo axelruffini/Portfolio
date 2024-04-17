@@ -131,7 +131,7 @@ a {
   animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.06);
+  box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.169);
 }
 
 @keyframes ciculoazul {
@@ -192,21 +192,7 @@ a {
 }
 
 .CV {
-  border-radius: 100px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.115);
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-}
-
-.btn-CV {
-  background-color: #4b7658;
-  background-image: linear-gradient(#003d5b, #235e7b);
+  color: rgb(0, 0, 0);
 }
 
 .btn-desplazamiento {
@@ -430,7 +416,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-image: linear-gradient(#ffb703, #ffcc4b);
+  background-image: linear-gradient(#ffb703, #e0ac00);
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -523,7 +509,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: rgb(23, 37, 52);
+  background: #386641;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
