@@ -28,17 +28,22 @@
     width: 20px;
 }
 
-.CV {
-    color: rgb(0, 0, 0);
+.btn-desplazamiento {
+    position: absolute;
+    bottom: 15%;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: #386641;
 }
 
-.btn-desplazamiento {
+.btn-cv {
     position: absolute;
     bottom: 10%;
     border: none;
     height: fit-content;
     width: fit-content;
-    background-color: #386641;
+    color: black;
 }
 
 .grupo-contacto {

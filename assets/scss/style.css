@@ -191,11 +191,18 @@ a {
   width: 20px;
 }
 
-.CV {
-  color: rgb(0, 0, 0);
+.btn-desplazamiento {
+  position: absolute;
+  bottom: 15%;
+  border: none;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #386641;
 }
 
-.btn-desplazamiento {
+.btn-cv {
   position: absolute;
   bottom: 10%;
   border: none;
@@ -203,7 +210,7 @@ a {
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #386641;
+  color: black;
 }
 
 .grupo-contacto {
@@ -531,7 +538,7 @@ button {
   width: 250px;
   height: 50px;
   border-style: solid;
-  border-color: black;
+  border-color: transparent;
   text-decoration: none;
 }
 
