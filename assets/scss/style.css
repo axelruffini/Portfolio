@@ -108,60 +108,62 @@ a {
   margin-left: 50px;
 }
 
-.colorFondo {
-  background-color: rgba(0, 0, 255, 0.079);
+.circulo1 {
+  background-color: rgb(228, 242, 255);
   height: 300px;
   width: 300px;
-  position: absolute;
   border-radius: 100%;
-  animation-name: ciculoazul;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 60%;
+  z-index: -1;
+  box-shadow: 0px 0px 100px rgb(193, 225, 255);
 }
 
-.colorFondo2 {
-  background-color: rgba(85, 255, 0, 0.112);
+.circulo2 {
+  background-color: rgba(89, 164, 89, 0.174);
   height: 300px;
   width: 300px;
-  position: absolute;
   border-radius: 100%;
-  animation-name: circuloverde;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  box-shadow: 0 -5px 32px 32px rgba(85, 255, 0, 0.169);
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  z-index: -1;
+  box-shadow: 0px 0px 100px rgba(89, 164, 89, 0.385);
 }
 
-@keyframes ciculoazul {
-  0% {
-    left: 50%;
-    bottom: 0%;
-  }
-  50% {
-    left: 0%;
-    bottom: 0%;
-  }
-  100% {
-    left: 50%;
-    bottom: 0%;
-  }
+/*
+@keyframes animcirculo1{
+    0% {left:50%; bottom: 0%;}
+    50% {left: 0%; bottom: 0%;}
+    100% {left: 50%; bottom: 0%;}
 }
-@keyframes circuloverde {
-  0% {
-    left: 0%;
-    top: 0%;
-  }
-  50% {
-    left: 20%;
-    top: 0%;
-  }
-  100% {
-    left: 0%;
-    top: 0%;
-  }
+
+@keyframes animcirculo2{
+    0% {left: 0%; top: 0%;}
+    50% {left: 20%; top: 0%;}
+    100% {left: 0%; top: 0%;}
 }
+
+
+@media(min-width: 1000px){
+    .colorFondo{
+        background-color:rgba(0, 0, 255, 0.079);
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        border-radius: 100%;
+        animation-name: circuloazul;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        -webkit-box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+        -moz-box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+        box-shadow: 0 -5px 32px 32px rgba(0, 0, 255, 0.079);
+    }
+}
+*/
 /*--------------------- Responsive ---------------------*/
 /*--------------------- Sobre mi ---------------------*/
 .sobre-mi {
@@ -200,6 +202,8 @@ a {
   width: -moz-fit-content;
   width: fit-content;
   background-color: #386641;
+  padding: 1.5% 20%;
+  margin-bottom: 3%;
 }
 
 .btn-cv {
