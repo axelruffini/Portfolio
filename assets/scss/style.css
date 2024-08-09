@@ -53,8 +53,10 @@ h1 {
   font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  display: block;
 }
 
 h2 {
@@ -62,7 +64,7 @@ h2 {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   color: black;
   display: block;
 }
@@ -96,6 +98,17 @@ p {
 
 a {
   color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  border-style: solid;
+  border-color: transparent;
   text-decoration: none;
 }
 
@@ -542,17 +555,6 @@ a {
   min-height: 200px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0);
-}
-
-button {
-  background-color: white;
-  padding: 10px;
-  border-radius: 100px;
-  width: 250px;
-  height: 50px;
-  border-style: solid;
-  border-color: transparent;
-  text-decoration: none;
 }
 
 @media (min-width: 1000px) {

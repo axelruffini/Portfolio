@@ -28,18 +28,6 @@
 }
 
 
-button{
-    background-color: white;
-    padding: 10px;
-    border-radius: 100px;
-    width: 250px;
-    height: 50px;
-    border-style: solid;
-    border-color: transparent;
-    text-decoration: none;
-}
-
-
 @media(min-width: 1000px){
     .grupo-tarjetas{
         display: flex;

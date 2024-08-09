@@ -44,14 +44,16 @@ article{
 
 h1{ //solo se usa 1 vez
     margin-top: 180px;
-    @include textos(50px,center);
-    font-weight:bolder;
+    @include textos(60px,center);
+    font-weight:bold;
+    color: black;
+    display: block;
 
 }
 
 h2{ //titulo
     @include textos(22px,center);
-    font-weight:bold;
+    font-weight:normal;
     color: black;
     display: block;
 }
@@ -76,6 +78,17 @@ p{ //parrafo
 
 a{
     color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    border-style: solid;
+    border-color: transparent;
     text-decoration: none;
 }
 
