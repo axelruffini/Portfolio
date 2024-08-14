@@ -17,33 +17,6 @@ body {
   padding: 0;
 }
 
-header {
-  font-family: "Nunito", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(11.4px);
-  -webkit-backdrop-filter: blur(11.4px);
-  width: 100%;
-  height: 10%;
-}
-header nav a {
-  color: rgb(0, 0, 0);
-  font-size: medium;
-  font-weight: lighter;
-  margin: 15px;
-  text-decoration: none;
-}
-
 article {
   max-width: 1500px;
 }
@@ -53,7 +26,7 @@ h1 {
   font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   color: black;
   display: block;
@@ -76,6 +49,7 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0px;
+  color: rgb(0, 0, 0);
 }
 
 h4 {
@@ -92,7 +66,7 @@ p {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 15px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   max-width: 300px;
 }
 
@@ -121,27 +95,14 @@ button {
   margin-left: 50px;
 }
 
-.circulo1 {
-  background-color: rgb(228, 242, 255);
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-  display: flex;
-  position: absolute;
-  right: 10%;
-  top: 60%;
-  z-index: -1;
-  box-shadow: 0px 0px 100px rgb(193, 225, 255);
-}
-
 .circulo2 {
   background-color: rgba(89, 164, 89, 0.174);
-  height: 300px;
-  width: 300px;
+  height: 50%;
+  width: 100%;
   border-radius: 100%;
   position: absolute;
-  left: 5%;
-  top: 2%;
+  left: 0%;
+  top: -20%;
   z-index: -1;
   box-shadow: 0px 0px 100px rgba(89, 164, 89, 0.385);
 }
@@ -222,7 +183,7 @@ button {
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #386641;
+  background-color: rgba(56, 102, 65, 0.3176470588);
   padding: 1.5% 20%;
   margin-bottom: 3%;
 }
@@ -542,7 +503,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #386641;
+  background: rgba(56, 102, 65, 0.1960784314);
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
