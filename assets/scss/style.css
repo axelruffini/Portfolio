@@ -22,7 +22,6 @@ article {
 }
 
 h1 {
-  margin-top: 180px;
   font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -164,6 +163,10 @@ button {
   100% {
     opacity: 1;
   }
+}
+
+.perfil {
+  margin-top: 80px;
 }
 
 .titulo {
@@ -516,6 +519,11 @@ button {
   min-height: 200px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.btn-mas {
+  background-color: rgba(95, 231, 95, 0.319);
+  height: 50px;
 }
 
 @media (min-width: 1000px) {

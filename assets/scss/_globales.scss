@@ -17,7 +17,6 @@ article{
 }
 
 h1{ //solo se usa 1 vez
-    margin-top: 180px;
     @include textos(50px,center);
     font-weight:bold;
     color: black;
