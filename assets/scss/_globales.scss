@@ -3,6 +3,7 @@
 html{
     scroll-behavior: smooth;
     scroll-padding: 5rem;
+
 }
 
 body {
@@ -12,9 +13,7 @@ body {
     padding: 0;
 }
 
-article{
-    max-width: 1500px;
-}
+
 
 h1{ //solo se usa 1 vez
     @include textos(50px,center);
