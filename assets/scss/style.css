@@ -74,9 +74,9 @@ p {
   font-family: "Lexend", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: normal;
   color: #EFDECD;
-  max-width: 300px;
 }
 
 a {
@@ -310,115 +310,88 @@ button {
 
 .globo1 {
   border-radius: 100px;
-  font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   padding: 10px 10px;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
   background-color: #e48315;
 }
 
 .globo2 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   padding: 10px 10px;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
   background-color: #5183e7;
 }
 
 .globo3 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
-  font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   padding: 10px 10px;
   background-color: #fb6f92;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
 }
 
 .globo4 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
   background-color: #e0ac00;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
 }
 
 .globo5 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
   background-color: #006ca2;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
 }
 
 .globo6 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
   background-color: #766196;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
 }
 
 .globo7 {
   border-radius: 100px;
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
   background-color: #7a904e;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 8px;
 }
 

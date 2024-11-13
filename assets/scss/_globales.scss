@@ -52,10 +52,10 @@ h5{
     font-size: 20px;
 }
 
-p{ //parrafo
-    @include textos(15px,center);
+p{
+    @include textos(17px,center);
+    font-weight:normal;
     color: #EFDECD;
-    max-width: 300px;
 }
 
 a{
