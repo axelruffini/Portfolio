@@ -142,7 +142,7 @@
     width: 100px;
     height: 100px;
     margin:  8px;
-    background-image: linear-gradient(#fb8500, #ffac4d);
+    background-color: #e48315;
 
 
 }
@@ -159,7 +159,7 @@
     width: 100px;
     height: 100px;
     margin: 8px;
-    background-image: linear-gradient(#5183e7, #7aa6fd);
+    background-color: #5183e7 ;
 
 }
 
@@ -172,7 +172,7 @@
     align-items: center;
     color: white;
     padding: 10px 10px;
-    background-image: linear-gradient(#fb6f92, #fc9db3);
+    background-color: #fb6f92;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -185,7 +185,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    background-image: linear-gradient(#ffb703, #e0ac00);
+    background-color: #e0ac00;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -198,7 +198,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    background-image: linear-gradient(#003d5b, #316986);
+    background-color: #006ca2;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -211,7 +211,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    background-image: linear-gradient(#44355b, #766196);
+    background-color: #766196;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -224,7 +224,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    background-image: linear-gradient(#4A5D23, #7a904e);
+    background-color: #7a904e;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -234,7 +234,7 @@
 @media(min-width: 1000px){
     .globo1{
         &:hover{
-            box-shadow:0px 0px 20px #fb8500ac;
+            box-shadow:0px 0px 20px #fb860048;
         }
     }
     .globo2{

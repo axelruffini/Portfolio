@@ -9,24 +9,28 @@ html{
 body {
     display: flex;
     justify-content: center;
-    background: #ffffff;
+    background: #1F305E;
     padding: 0;
 }
 
-
+::selection {
+    background-color: #EFDECD;
+    color: #1F305E;
+}
 
 h1{ //solo se usa 1 vez
-    @include textos(50px,center);
-    font-weight:bold;
-    color: black;
-    display: block;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    color: #EFDECD
 
 }
 
 h2{ //titulo
-    @include textos(22px,center);
+    @include textos(17px,center);
     font-weight:normal;
-    color: black;
+    color: #EFDECD;
     display: block;
 }
 
@@ -40,22 +44,27 @@ h3{
 h4{ 
     @include textos(20px,center);
     font-weight:400;
-    color: black
+    color: #EFDECD;
+}
+
+h5{
+    color: #1F305E;
+    font-size: 20px;
 }
 
 p{ //parrafo
     @include textos(15px,center);
-    color: rgb(0, 0, 0);
+    color: #EFDECD;
     max-width: 300px;
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: #EFDECD;
     text-decoration: none;
 }
 
 button{
-    background-color: white;
+    background-color: #EFDECD;
     padding: 10px;
     border-radius: 20px;
     width: 250px;
@@ -74,58 +83,8 @@ button{
     margin-left: 50px;
 }
 
-.circulo2{
-    background-color: rgba(89, 164, 89, 0.174);
-    height: 50%;
-    width: 100%;
-    border-radius: 100%;
-    position: absolute;
-    left:0%;
-    top: -20%;
-    z-index: -1;
-    box-shadow: 0px 0px 100px rgba(89, 164, 89, 0.385);
-}
-
-
-/*
-@keyframes animcirculo1{
-    0% {left:50%; bottom: 0%;}
-    50% {left: 0%; bottom: 0%;}
-    100% {left: 50%; bottom: 0%;}
-}
-
-@keyframes animcirculo2{
-    0% {left: 0%; top: 0%;}
-    50% {left: 20%; top: 0%;}
-    100% {left: 0%; top: 0%;}
-}
-
-*/
-
 
 @media(min-width: 1000px){
-    .circulo1{
-        background-color: rgb(228, 242, 255);
-        height: 750px;
-        width: 750px;
-        border-radius: 100%;
-        display: flex;
-        position: absolute;
-        right: 0%;
-        top: 50%;
-        z-index: -1;
-        box-shadow: 0px 0px 200px rgb(193, 225, 255);
-    }
-    
-    .circulo2{
-        background-color: rgba(89, 164, 89, 0.174);
-        height: 750px;
-        width: 750px;
-        border-radius: 100%;
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        z-index: -1;
-        box-shadow: 0px 0px 200px rgba(89, 164, 89, 0.385);
-    }
+
+
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,27 +14,35 @@ html {
 body {
   display: flex;
   justify-content: center;
-  background: #ffffff;
+  background: #1F305E;
   padding: 0;
 }
 
+::-moz-selection {
+  background-color: #EFDECD;
+  color: #1F305E;
+}
+
+::selection {
+  background-color: #EFDECD;
+  color: #1F305E;
+}
+
 h1 {
-  font-family: "Lexend", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: black;
-  display: block;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-size: 45px;
+  font-style: normal;
+  color: #EFDECD;
 }
 
 h2 {
   font-family: "Lexend", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: normal;
-  color: black;
+  color: #EFDECD;
   display: block;
 }
 
@@ -53,7 +62,12 @@ h4 {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
-  color: black;
+  color: #EFDECD;
+}
+
+h5 {
+  color: #1F305E;
+  font-size: 20px;
 }
 
 p {
@@ -61,17 +75,17 @@ p {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 15px;
-  color: rgb(0, 0, 0);
+  color: #EFDECD;
   max-width: 300px;
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: #EFDECD;
   text-decoration: none;
 }
 
 button {
-  background-color: white;
+  background-color: #EFDECD;
   padding: 10px;
   border-radius: 20px;
   width: 250px;
@@ -90,57 +104,6 @@ button {
   margin-left: 50px;
 }
 
-.circulo2 {
-  background-color: rgba(89, 164, 89, 0.174);
-  height: 50%;
-  width: 100%;
-  border-radius: 100%;
-  position: absolute;
-  left: 0%;
-  top: -20%;
-  z-index: -1;
-  box-shadow: 0px 0px 100px rgba(89, 164, 89, 0.385);
-}
-
-/*
-@keyframes animcirculo1{
-    0% {left:50%; bottom: 0%;}
-    50% {left: 0%; bottom: 0%;}
-    100% {left: 50%; bottom: 0%;}
-}
-
-@keyframes animcirculo2{
-    0% {left: 0%; top: 0%;}
-    50% {left: 20%; top: 0%;}
-    100% {left: 0%; top: 0%;}
-}
-
-*/
-@media (min-width: 1000px) {
-  .circulo1 {
-    background-color: rgb(228, 242, 255);
-    height: 750px;
-    width: 750px;
-    border-radius: 100%;
-    display: flex;
-    position: absolute;
-    right: 0%;
-    top: 50%;
-    z-index: -1;
-    box-shadow: 0px 0px 200px rgb(193, 225, 255);
-  }
-  .circulo2 {
-    background-color: rgba(89, 164, 89, 0.174);
-    height: 750px;
-    width: 750px;
-    border-radius: 100%;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    z-index: -1;
-    box-shadow: 0px 0px 200px rgba(89, 164, 89, 0.385);
-  }
-}
 /*--------------------- Responsive ---------------------*/
 /*--------------------- Sobre mi ---------------------*/
 .sobre-mi {
@@ -163,10 +126,9 @@ button {
 
 .perfil {
   margin-top: 80px;
-}
-
-.titulo {
-  margin-top: 100px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px #EFDECD;
+  margin-bottom: 30px;
 }
 
 .imgIcon {
@@ -178,12 +140,11 @@ button {
   position: absolute;
   bottom: 15%;
   border: none;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: #386641;
-  padding: 1.5% 20%;
+  border-radius: 100px;
+  height: 60px;
+  width: 300px;
+  max-width: 500px;
+  background-color: #EFDECD;
   margin-bottom: 3%;
 }
 
@@ -195,7 +156,6 @@ button {
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: black;
 }
 
 .grupo-contacto {
@@ -359,7 +319,7 @@ button {
   width: 100px;
   height: 100px;
   margin: 8px;
-  background-image: linear-gradient(#fb8500, #ffac4d);
+  background-color: #e48315;
 }
 
 .globo2 {
@@ -377,7 +337,7 @@ button {
   width: 100px;
   height: 100px;
   margin: 8px;
-  background-image: linear-gradient(#5183e7, #7aa6fd);
+  background-color: #5183e7;
 }
 
 .globo3 {
@@ -392,7 +352,7 @@ button {
   align-items: center;
   color: white;
   padding: 10px 10px;
-  background-image: linear-gradient(#fb6f92, #fc9db3);
+  background-color: #fb6f92;
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -408,7 +368,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-image: linear-gradient(#ffb703, #e0ac00);
+  background-color: #e0ac00;
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -424,7 +384,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-image: linear-gradient(#003d5b, #316986);
+  background-color: #006ca2;
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -440,7 +400,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-image: linear-gradient(#44355b, #766196);
+  background-color: #766196;
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -456,7 +416,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
-  background-image: linear-gradient(#4A5D23, #7a904e);
+  background-color: #7a904e;
   width: 100px;
   height: 100px;
   margin: 8px;
@@ -464,7 +424,7 @@ button {
 
 @media (min-width: 1000px) {
   .globo1:hover {
-    box-shadow: 0px 0px 20px rgba(251, 133, 0, 0.6745098039);
+    box-shadow: 0px 0px 20px rgba(251, 134, 0, 0.2823529412);
   }
   .globo2:hover {
     box-shadow: 0px 0px 20px rgba(81, 131, 231, 0.6745098039);
