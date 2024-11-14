@@ -1,3 +1,19 @@
+.bodyProy{
+    display: block;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categorias{
+    margin-right: 3%;
+    @include textos(17px,center);
+    color: #EFDECD;
+}
+
 .grupo-tarjetas{
     display: flex;
     flex-direction: column;

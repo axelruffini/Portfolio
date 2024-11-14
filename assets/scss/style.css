@@ -419,6 +419,25 @@ button {
   }
 }
 /*--------------------- Proyectos ---------------------*/
+.bodyProy {
+  display: block;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.categorias {
+  margin-right: 3%;
+  font-family: "Lexend", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 17px;
+  color: #EFDECD;
+}
+
 .grupo-tarjetas {
   display: flex;
   flex-direction: column;
