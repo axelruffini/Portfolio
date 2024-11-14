@@ -38,13 +38,13 @@ h3{
     @include textos(20px,center);
     font-weight:bold;
     margin: 10px 0px;
-    color: rgb(0, 0, 0);
+    color: #1F305E;
 }
 
 h4{ 
     @include textos(20px,center);
     font-weight:400;
-    color: #EFDECD;
+    color: #1F305E;
 }
 
 h5{
@@ -55,7 +55,7 @@ h5{
 p{
     @include textos(17px,center);
     font-weight:normal;
-    color: #EFDECD;
+    color: #1F305E;
 }
 
 a{

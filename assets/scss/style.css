@@ -53,7 +53,7 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0px;
-  color: rgb(0, 0, 0);
+  color: #1F305E;
 }
 
 h4 {
@@ -62,7 +62,7 @@ h4 {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
-  color: #EFDECD;
+  color: #1F305E;
 }
 
 h5 {
@@ -76,7 +76,7 @@ p {
   text-align: center;
   font-size: 17px;
   font-weight: normal;
-  color: #EFDECD;
+  color: #1F305E;
 }
 
 a {
@@ -127,7 +127,7 @@ button {
 .perfil {
   margin-top: 80px;
   border-radius: 100px;
-  box-shadow: 0px 0px 20px #EFDECD;
+  box-shadow: 0px 0px 30px rgba(239, 222, 205, 0.1254901961);
   margin-bottom: 30px;
 }
 
@@ -435,7 +435,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #ececec;
+  background: #EFDECD;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -451,12 +451,13 @@ button {
 }
 
 .btn-mas {
-  background-color: rgba(95, 231, 95, 0.319);
+  background-color: #EFDECD;
   height: 50px;
 }
 
 .btn-inicio {
-  background-color: rgb(196, 222, 183);
+  background-color: #EFDECD;
+  box-shadow: 0px 0px 20px rgba(31, 48, 94, 0.2862745098);
   height: 80px;
   width: 80px;
   border-radius: 100px;
