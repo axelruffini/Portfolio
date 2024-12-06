@@ -11,7 +11,7 @@ header{
 .categorias{
     margin-right: 3%;
     @include textos(17px,center);
-    color: #EFDECD;
+    color: #EFEFEF;
 }
 
 .grupo-tarjetas{
@@ -29,7 +29,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #EFDECD;
+    background: #EFEFEF;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -44,13 +44,13 @@ header{
 }
 
 .btn-mas{
-    background-color:#EFDECD;
+    background-color:#EFEFEF;
     height: 50px;
-
+    margin-bottom: 20px;
 }
 
 .btn-inicio{
-    background-color:#EFDECD;
+    background-color:#EFEFEF;
     box-shadow:0px 0px 20px #1f305e49;
     height: 80px;
     width: 80px;
@@ -58,8 +58,8 @@ header{
     position: fixed;
     right: 10px;
     bottom: 10px;
+    margin: 20px;
 }
-
 
 @media(min-width: 1000px){
     .grupo-tarjetas{
@@ -75,5 +75,4 @@ header{
             }
         }
     }
-
 }
