@@ -144,19 +144,18 @@ button {
 
 .btn-desplazamiento {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   border: none;
   border-radius: 100px;
   height: 60px;
   width: 300px;
   max-width: 500px;
   background-color: #EFEFEF;
-  margin-bottom: 3%;
 }
 
 .btn-cv {
   position: absolute;
-  bottom: 10%;
+  bottom: 3%;
   border: none;
   height: -moz-fit-content;
   height: fit-content;
