@@ -1,17 +1,16 @@
 @import "mixin";
 
-html{
+html {
     scroll-behavior: smooth;
     scroll-padding: 5rem;
 
 }
 
 body {
-
     display: flex;
     justify-content: center;
-        background: rgb(42,58,97);
-    background: radial-gradient(circle, rgba(42,58,97,1) 0%, rgba(22,33,61,1) 100%);
+    background: rgb(42, 58, 97);
+    background: radial-gradient(circle, rgba(42, 58, 97, 1) 0%, rgba(22, 33, 61, 1) 100%);
     padding: 0;
 }
 
@@ -20,59 +19,61 @@ body {
     color: #16213D;
 }
 
-article{
+article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-h1{ //solo se usa 1 vez
+h1 {
+    //solo se usa 1 vez
     font-family: "Pattaya", sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     color: #EFEFEF;
 
 }
 
-h2{ //titulo
-    @include textos(17px,center);
-    font-weight:normal;
+h2 {
+    //titulo
+    @include textos(17px, center);
+    font-weight: normal;
     color: #EFEFEF;
     display: block;
 }
 
-h3{ 
-    @include textos(20px,center);
-    font-weight:bold;
+h3 {
+    @include textos(20px, center);
+    font-weight: bold;
     margin: 10px 0px;
     color: #16213D;
 }
 
-h4{ 
-    @include textos(20px,center);
-    font-weight:400;
+h4 {
+    @include textos(20px, center);
+    font-weight: 400;
     color: #16213D;
 }
 
-h5{
+h5 {
     color: #16213D;
     font-size: 20px;
 }
 
-p{
-    @include textos(17px,center);
-    font-weight:normal;
+p {
+    @include textos(17px, center);
+    font-weight: normal;
     color: #16213D;
 }
 
-a{
+a {
     color: #EFEFEF;
     text-decoration: none;
 }
 
-button{
+button {
     background-color: #EFEFEF;
     padding: 10px;
     border-radius: 20px;
@@ -83,17 +84,14 @@ button{
     text-decoration: none;
 }
 
-.margin-b{
-    margin-bottom: 20px ;
+.margin-b {
+    margin-bottom: 20px;
 }
 
-.txt-aling{
+.txt-aling {
     text-align: left;
     margin-left: 50px;
 }
 
 
-@media(min-width: 1000px){
-
-
-}
+@media(min-width: 1000px) {}
