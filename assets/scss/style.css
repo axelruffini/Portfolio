@@ -14,8 +14,7 @@ html {
 body {
   display: flex;
   justify-content: center;
-  background: rgb(42, 58, 97);
-  background: radial-gradient(circle, rgb(42, 58, 97) 0%, rgb(22, 33, 61) 100%);
+  background: #FFFEF1;
   padding: 0;
 }
 
@@ -38,9 +37,9 @@ article {
 
 h1 {
   font-family: "Pattaya", sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   font-style: normal;
-  color: #EFEFEF;
+  color: #000000;
 }
 
 h2 {
@@ -49,7 +48,7 @@ h2 {
   text-align: center;
   font-size: 17px;
   font-weight: normal;
-  color: #EFEFEF;
+  color: #000000;
   display: block;
 }
 
@@ -133,8 +132,9 @@ button {
 
 .perfil {
   margin-top: 80px;
-  border-radius: 100px;
   margin-bottom: 30px;
+  width: 126px;
+  height: 126px;
 }
 
 .imgIcon {
@@ -145,12 +145,16 @@ button {
 .btn-desplazamiento {
   position: absolute;
   bottom: 10%;
-  border: none;
   border-radius: 100px;
-  height: 60px;
-  width: 300px;
+  border-color: black;
+  border-width: 3px;
+  height: 50px;
+  width: 240px;
   max-width: 500px;
-  background-color: #EFEFEF;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #759AFF;
+  -webkit-box-shadow: 4px 4px 0px 0px #759AFF;
+  -moz-box-shadow: 4px 4px 0px 0px #759AFF;
 }
 
 .btn-cv {
@@ -452,10 +456,6 @@ header {
 }
 
 .tarjetas {
-  margin: 3% 2%;
-}
-
-.tarjetas2 {
   display: flex;
   height: -moz-fit-content;
   height: fit-content;
@@ -469,7 +469,7 @@ header {
   padding: 20px;
   border-radius: 10px;
 }
-.tarjetas2 .img-tarjeta {
+.tarjetas .img-tarjeta {
   -o-object-fit: cover;
      object-fit: cover;
   width: 300px;

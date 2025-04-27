@@ -9,8 +9,7 @@ html {
 body {
     display: flex;
     justify-content: center;
-    background: rgb(42, 58, 97);
-    background: radial-gradient(circle, rgba(42, 58, 97, 1) 0%, rgba(22, 33, 61, 1) 100%);
+    background: #FFFEF1;
     padding: 0;
 }
 
@@ -30,9 +29,9 @@ article {
 h1 {
     //solo se usa 1 vez
     font-family: "Pattaya", sans-serif;
-    font-size: 60px;
+    font-size: 55px;
     font-style: normal;
-    color: #EFEFEF;
+    color: #000000;
 
 }
 
@@ -40,7 +39,7 @@ h2 {
     //titulo
     @include textos(17px, center);
     font-weight: normal;
-    color: #EFEFEF;
+    color: #000000;
     display: block;
 }
 

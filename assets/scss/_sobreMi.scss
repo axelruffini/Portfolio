@@ -19,10 +19,12 @@
 
 }
 
-.perfil{
+.perfil {
     margin-top: 80px;
-    border-radius: 100px;
     margin-bottom: 30px;
+    width: 126px;
+    height: 126px;
+
 }
 
 .imgIcon {
@@ -34,12 +36,18 @@
 .btn-desplazamiento {
     position: absolute;
     bottom: 10%;
-    border: none;
     border-radius: 100px;
-    height: 60px;
-    width: 300px;
+    border-color: black;
+    border-width: 3px;
+    height: 50px;
+    width: 240px;
     max-width: 500px;
-    background-color: #EFEFEF;
+    background-color: #ffffff;
+
+    box-shadow: 4px 4px 0px 0px #759AFF;
+    -webkit-box-shadow: 4px 4px 0px 0px #759AFF;
+    -moz-box-shadow: 4px 4px 0px 0px #759AFF;
+
 }
 
 .btn-cv {
