@@ -3,7 +3,6 @@
 
 @mixin textos ($size, $centrado){
     font-family: "Lexend", sans-serif;
-    color: rgb(255, 255, 255);
     text-align: $centrado;
     font-size: $size;
 }
