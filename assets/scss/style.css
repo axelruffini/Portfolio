@@ -310,7 +310,7 @@ button {
   background-image: linear-gradient(#4A5D23, #7a904e);
 }
 
-.globo1 {
+.globo {
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -319,111 +319,28 @@ button {
   width: 300px;
   height: 50px;
   margin: 8px;
+  border: 4px solid;
+  box-shadow: 5px 5px 0px 0px #000000;
+  -webkit-box-shadow: 5px 5px 0px 0px #000000;
+  -moz-box-shadow: 5px 5px 0px 0px #000000;
+}
+
+.globo-naranja {
   background-color: #FFA644;
-  border: 4px solid;
 }
 
-.globo2 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  background-color: #DAF5F0;
-  border: 4px solid;
+.globo-rojo {
+  background: #FF6B6B;
 }
 
-.globo3 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: #fb6f92;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  border: 4px solid;
+.globo-azul {
+  background: #4D96FF;
 }
 
-.globo4 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: #FFDB58;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  border: 4px solid;
+.globo-verde {
+  background: #6BCB77;
 }
 
-.globo5 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: #DAF5F0;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  border: 4px solid;
-}
-
-.globo6 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: #C4A1FF;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  border: 4px solid;
-}
-
-.globo7 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: #bcce98;
-  width: 300px;
-  height: 50px;
-  margin: 8px;
-  border: 4px solid;
-}
-
-@media (min-width: 1000px) {
-  .globo1:hover {
-    box-shadow: 0px 0px 20px rgba(251, 134, 0, 0.2823529412);
-  }
-  .globo2:hover {
-    box-shadow: 0px 0px 20px rgba(81, 131, 231, 0.6745098039);
-  }
-  .globo3:hover {
-    box-shadow: 0px 0px 20px rgba(251, 111, 146, 0.6745098039);
-  }
-  .globo4:hover {
-    box-shadow: 0px 0px 20px #ffb703;
-  }
-  .globo5:hover {
-    box-shadow: 0px 0px 20px #003d5b;
-  }
-  .globo6:hover {
-    box-shadow: 0px 0px 20px rgba(118, 120, 237, 0.6745098039);
-  }
-  .globo7:hover {
-    box-shadow: 0px 0px 20px #4A5D23;
-  }
-}
 /*--------------------- Proyectos ---------------------*/
 .bodyProy {
   display: block;
@@ -460,7 +377,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #FFDB58;
   margin: 20px;
   padding: 20px;
   border-color: #000000;
@@ -482,6 +398,18 @@ header {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
+.tarjeta-roja {
+  background: #FF6B6B;
+}
+
+.tarjeta-azul {
+  background: #4D96FF;
+}
+
+.tarjeta-verde {
+  background: #6BCB77;
+}
+
 .tarjetas2 {
   display: flex;
   height: -moz-fit-content;
@@ -491,10 +419,16 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #EFEFEF;
   margin: 20px;
   padding: 20px;
-  border-radius: 10px;
+  border-color: #000000;
+  border-radius: 15px;
+  border: 3px solid;
+  border-color: black;
+  border-width: 4px;
+  box-shadow: 5px 5px 0px 0px #000000;
+  -webkit-box-shadow: 5px 5px 0px 0px #000000;
+  -moz-box-shadow: 5px 5px 0px 0px #000000;
 }
 .tarjetas2 .img-tarjeta {
   -o-object-fit: cover;

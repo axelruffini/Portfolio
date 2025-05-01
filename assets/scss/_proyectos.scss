@@ -31,7 +31,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #FFDB58;
     margin: 20px;
     padding: 20px;
     border-color: #000000;
@@ -53,6 +52,19 @@ header{
     }
 }
 
+//Colores específicos
+.tarjeta-roja {
+    background: #FF6B6B;
+}
+
+.tarjeta-azul {
+    background: #4D96FF;
+}
+
+.tarjeta-verde {
+    background: #6BCB77;
+}
+
 .tarjetas2{
     display: flex;
     height: fit-content;
@@ -61,10 +73,17 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #EFEFEF;
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-color: #000000;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+    border-width: 4px;
+
+    box-shadow: 5px 5px 0px 0px #000000;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    -moz-box-shadow: 5px 5px 0px 0px #000000;
     .img-tarjeta{
         object-fit:cover;
         width: 300px;
