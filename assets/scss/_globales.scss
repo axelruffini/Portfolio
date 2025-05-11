@@ -36,14 +36,15 @@ h1 {
 }
 
 h2 {
-    //titulo
-    @include textos(17px, center);
+    //Titulo Secundario
+    @include textos(17px, start);
     font-weight: normal;
     color: #000000;
-    display: block;
+
 }
 
 h3 {
+    //subtitulo
     @include textos(20px, center);
     font-weight: bold;
     margin: 10px 0px;
