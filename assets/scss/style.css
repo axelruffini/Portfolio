@@ -107,6 +107,46 @@ button {
   margin-left: 50px;
 }
 
+.btn1 {
+  margin: 20px;
+  border-color: black;
+  border-width: 3px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #b0c787;
+  -webkit-box-shadow: 4px 4px 0px 0px #b0c787;
+  -moz-box-shadow: 4px 4px 0px 0px #b0c787;
+}
+
+.btn2 {
+  margin: 20px;
+  border-color: black;
+  border-width: 3px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #FF6B6B;
+  -webkit-box-shadow: 4px 4px 0px 0px #FF6B6B;
+  -moz-box-shadow: 4px 4px 0px 0px #FF6B6B;
+}
+
+.btn3 {
+  margin: 20px;
+  border-color: black;
+  border-width: 3px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #54d0ed;
+  -webkit-box-shadow: 4px 4px 0px 0px #54d0ed;
+  -moz-box-shadow: 4px 4px 0px 0px #54d0ed;
+}
+
+.btn4 {
+  margin: 20px;
+  border-color: black;
+  border-width: 3px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #000000;
+  -webkit-box-shadow: 4px 4px 0px 0px #000000;
+  -moz-box-shadow: 4px 4px 0px 0px #000000;
+}
+
 /*--------------------- Responsive ---------------------*/
 /*--------------------- Sobre mi ---------------------*/
 .sobre-mi {
@@ -143,18 +183,12 @@ button {
   position: absolute;
   bottom: 10%;
   border-radius: 100px;
-  border-color: black;
-  border-width: 3px;
   height: 50px;
   width: 240px;
   max-width: 500px;
-  background-color: #ffffff;
-  box-shadow: 4px 4px 0px 0px #759AFF;
-  -webkit-box-shadow: 4px 4px 0px 0px #759AFF;
-  -moz-box-shadow: 4px 4px 0px 0px #759AFF;
 }
 
-.btn2 {
+.btnProy {
   background-color: transparent;
   position: absolute;
   bottom: 2.5%;
@@ -336,11 +370,11 @@ button {
 }
 
 .globo-rojo {
-  background: #FF6B6B;
+  background: #f48278;
 }
 
 .globo-azul {
-  background: #7aa4ff;
+  background: #54d0ed;
 }
 
 .globo-celeste {
@@ -364,14 +398,17 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  line-height: 60px;
+  padding-top: 40px;
 }
 
 .categorias {
-  margin-right: 3%;
   font-family: "Anek Latin", sans-serif;
-  text-align: center;
+  text-align: start;
   font-size: 17px;
-  color: #EFEFEF;
+  font-weight: normal;
+  color: #000000;
+  margin: 0px 20px;
 }
 
 .grupo-tarjetas {
@@ -413,15 +450,15 @@ header {
 }
 
 .tarjeta-roja {
-  background: #FF6B6B;
+  background: #f48278;
 }
 
 .tarjeta-azul {
-  background: #4D96FF;
+  background: #54d0ed;
 }
 
 .tarjeta-verde {
-  background: #6BCB77;
+  background: #b0c787;
 }
 
 .tarjetas2 {
@@ -464,21 +501,12 @@ header {
 }
 
 .btn-inicio {
-  background-color: #EFEFEF;
-  box-shadow: 0px 0px 20px rgba(31, 48, 94, 0.2862745098);
   height: 80px;
   width: 80px;
   border-radius: 100px;
   position: fixed;
   right: 10px;
   bottom: 10px;
-  margin: 20px;
-  border-color: black;
-  border-width: 3px;
-  background-color: #ffffff;
-  box-shadow: 4px 4px 0px 0px #FF6B6B;
-  -webkit-box-shadow: 4px 4px 0px 0px #FF6B6B;
-  -moz-box-shadow: 4px 4px 0px 0px #FF6B6B;
 }
 
 @media (min-width: 1000px) {
